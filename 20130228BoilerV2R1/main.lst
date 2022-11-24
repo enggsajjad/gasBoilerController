@@ -1,0 +1,1736 @@
+C51 COMPILER V6.11.4C,  MAIN                      11/05/113  14:37:27  PAGE  1
+
+QCW(0x00002D1A)
+
+WIN32 C51 COMPILER V6.11.4C, COMPILATION OF MODULE MAIN      
+OBJECT MODULE PLACED IN e:\p\ctc boiler\20130228boilerv2r1\main.obj
+COMPILER INVOKED BY: C51.EXE E:\P\CTC BOILER\20130228BOILERV2R1\MAIN.C OBJECT(E:
+            -\P\CTC BOILER\20130228BOILERV2R1\MAIN.OBJ) PIN(C:\FSI\INC) NOAM PR(
+            -E:\P\CTC BOILER\20130228BOILERV2R1\MAIN.LST) CD SB OE(1) SM FP(NOFL
+            -OAT) PW(80) 
+
+stmt level    source
+   1          /*				CTC BOILER
+   2          				AUTOMATIC CONTROLLER
+   3                      Programmer: Sajjad Hussain S.E.
+   4                      Crystal Frequency	=	11.0592 MHz
+   5                      Micocontroller		= 	AT89C51RC2
+   6                      New PCB DESIGN	ESDG-07-2k13
+   7                      Dated: 	17-01-2013
+   8                      O U T P U T
+   9                      ===========
+  10                      1.	Main Gas Valve
+  11                      2.	PILOT	Valve
+  12                      3.	BURNER Valve
+  13                      4.	BLOWER Motor
+  14                      5.	DAMPER	CW
+  15                      6.	DAMPER	CCW
+  16                      7.	IGNITER
+  17                      8.	SPARE BUZZER
+  18                      I N P U T
+  19                      ===========
+  20                      1.	START			default= open contact (pull-up)
+  21                      2.	STOP 			default= open contact (pull-up)
+  22                      3.	TEMPH			default= close contact (ground)
+  23                      4.	TEMPL			default= close contact (ground)
+  24                      5.	DAMPER0		default= open contact (pull-up)
+  25                      6.	DAMPER5		default= open contact (pull-up)
+  26                      7.	DAMPER100	default= open contact (pull-up)
+  27                      8.	FLOW			
+  28                      9.	MAINGAS		default= open contact (pull-up)*/
+  29          #include "at89c51rc2.h"
+  30          #include "boiler.h"
+  31          // Main Program Starts Here
+  32          void main()
+  33          {
+  34   1      	// Initilize Microcontroller
+  35   1      	P2 = 0x00;
+  36   1      	TMOD =0x21;// Timer 1= 8-bit Auto Reload, Timer 0= 16-bit
+  37   1      	CCON = 0x00;// Set PCA Module and PCA Interrupt for Stop Button
+  38   1      	CMOD = 0x00;
+  39   1      	CH = 0;
+  40   1      	CL = 0;
+  41   1      	//CCAPM0 = 0x11;	// Capture -ve Edge  for Stop Button
+  42   1      	CCON |= 0x40; //CR = 1;
+  43   1         // Initial Screen
+  44   1      	DelayXms(100);
+  45   1      
+  46   1      	LcdInit();
+  47   1      	LcdGotoXY(1,1);
+  48   1      	LcdWriteStr("  ESDG-PD-ICCC");
+  49   1      	LcdGotoXY(2,1);
+  50   1      	LcdWriteStr(" BOILER CONTROL");
+  51   1      	
+  52   1      	DelayXms(100);
+  53   1      	LcdGotoXY(1,1);
+  54   1      	LcdWriteStr(" BOILER CONTROL ");
+  55   1      	LcdGotoXY(2,1);
+  56   1      	LcdWriteStr("By Sajjad SE-PD ");
+  57   1      	
+  58   1      	DelayXms(100);
+  59   1      	LcdGotoXY(1,1);
+  60   1      	LcdWriteStr(" BOILER CONTROL ");
+  61   1      	LcdGotoXY(2,1);
+  62   1      	LcdWriteStr("Checking Default");
+  63   1      
+  64   1      	// Setting default conditions
+  65   1      	DelayXms(100);
+  66   1      	LcdGotoXY(2,1);
+  67   1      	LcdWriteStr("Err: START=ON   ");
+  68   1      	while(iSTOP==1)
+  69   1      		oSPARE = 1;
+  70   1      	
+  71   1      	oSPARE = 0;
+  72   1      	DelayXms(50);
+  73   1      	LcdGotoXY(2,1);
+  74   1      	LcdWriteStr("Err: HI TEMP=ON ");
+  75   1      	while(iTEMPH==1)
+  76   1      		oSPARE = 1;
+  77   1      
+  78   1      	
+  79   1      	oSPARE = 0;
+  80   1      	DelayXms(50);
+  81   1      	LcdGotoXY(2,1);
+  82   1      	LcdWriteStr("Err: LO TEMP=ON ");
+  83   1      	while(iTEMPL==1)
+  84   1      		oSPARE = 1;
+  85   1      	
+  86   1      	oSPARE = 0;
+  87   1      	DelayXms(50);
+  88   1      	LcdGotoXY(2,1);
+  89   1      	LcdWriteStr("Err: MG VALVE=ON");
+  90   1      	while(iMAINGAS==0)
+  91   1      		oSPARE = 1;
+  92   1      	
+  93   1      	EC = 1;
+  94   1      	EA = 1;
+  95   1      	
+  96   1      	LcdGotoXY(2,1);
+  97   1      	DelayXms(50);
+  98   1      	LcdWriteStr("   Damper =     ");
+  99   1      	LcdGotoXY(2,13);
+ 100   1      	Putc(ReadDamper()+48);
+ 101   1      	
+ 102   1      	//Checking 0%	
+ 103   1      	while(ReadDamper() != 7);
+ 104   1      	oDAMPERCW = 0;
+ 105   1      	LcdGotoXY(2,1);LcdWriteStr("OFF");
+ 106   1      	DelayXms(2000);
+ 107   1      	//Checking Just 0%
+ 108   1      	oDAMPERCW = 1;
+ 109   1      	while(ReadDamper() != 6);
+ 110   1      	oDAMPERCW = 0;
+ 111   1      	LcdGotoXY(2,1);LcdWriteStr("0% ");
+ 112   1      	DelayXms(2000);
+ 113   1      	//Checking 5%
+ 114   1      	oDAMPERCW = 1;
+ 115   1      	while(ReadDamper() != 4);
+ 116   1      	oDAMPERCW = 0;
+ 117   1      	LcdGotoXY(2,1);LcdWriteStr("5% ");
+ 118   1      	DelayXms(2000);
+ 119   1      	//Checking 100%
+ 120   1      	oDAMPERCW = 1;
+ 121   1      	while(ReadDamper() != 0);
+ 122   1      	oDAMPERCW = 0;
+ 123   1      	LcdGotoXY(2,1);LcdWriteStr("100");
+ 124   1      	DelayXms(2000);
+ 125   1      	//Checking 5%
+ 126   1      	oDAMPERCCW = 1;
+ 127   1      	while(ReadDamper() != 6);
+ 128   1      	oDAMPERCCW = 0;
+ 129   1      	LcdGotoXY(2,1);LcdWriteStr("5% ");
+ 130   1      	DelayXms(2000);
+ 131   1      	//Checking just 0%
+ 132   1      	oDAMPERCCW = 1;
+ 133   1      	while(ReadDamper() != 7);
+ 134   1      	oDAMPERCCW = 0;
+ 135   1      	LcdGotoXY(2,1);LcdWriteStr("0% ");
+ 136   1      	DelayXms(2000);
+ 137   1      		
+ 138   1      	DelayXms(100);
+ 139   1      	state = init_damper;
+ 140   1      	nstate = state;
+ 141   1      
+ 142   1      	// Default 
+ 143   1       	isInit = 1;
+ 144   1      	//Running Forever
+ 145   1      	while(isInit)
+ 146   1      	{	
+ 147   2      		switch(state)
+ 148   2      		{
+ 149   3      		 	case init_damper:
+ 150   3      		 		if(ReadDamper() == 7) //off
+ 151   3      	 		 		nstate = damper_is_off;
+ 152   3      		 		else//4 6 0
+ 153   3      		 		{
+ 154   4      	 		 		oDAMPERCCW = 1;	// start motor ccw to bring it to off posit
+            -ion
+ 155   4      	 		 		nstate = wait_for_off;
+ 156   4      		 		}
+ 157   3      		 		state = idle_state;
+ 158   3      		 		break;// outer case
+ 159   3      		 	case wait_for_off:
+ 160   3      		 		if(ReadDamper() == 7)
+ 161   3      		 			nstate = damper_is_off;
+ 162   3      		 		state = idle_state;
+ 163   3      		 		break;
+ 164   3      		 	case damper_is_off:
+ 165   3      		 		oDAMPERCCW = 0;
+ 166   3      		 		DelayXms(100);
+ 167   3      		 		// start motor cw to bring it to just at 0%
+ 168   3      		 		oDAMPERCW = 1;
+ 169   3      				nstate = wait_for_damper0;
+ 170   3      				state = idle_state;
+ 171   3      				break;
+ 172   3      			case wait_for_damper0:
+ 173   3      				if (ReadDamper() == 6)
+ 174   3      					nstate = damper_is_at_0;
+ 175   3      				state = idle_state;
+ 176   3      		 		break;
+ 177   3      		 	case damper_is_at_0:
+ 178   3      		 		oDAMPERCW = 0;
+ 179   3      		 		nstate = wait_for_start;
+ 180   3      		 		state = idle_state;
+ 181   3      		 		LcdGotoXY(2,1);
+ 182   3      				LcdWriteStr("Waiting to Start");
+ 183   3      		 		break;
+ 184   3      		 	case wait_for_start:
+ 185   3      		 		if(iSTART == 0)
+ 186   3      		 			nstate = set_damper_to_100;
+ 187   3      		 		state = idle_state;
+ 188   3      		 		break;
+ 189   3      		 	case set_damper_to_100:
+ 190   3      		 		LcdGotoXY(2,1);
+ 191   3      				LcdWriteStr(" Purging.       ");
+ 192   3      				CCAPM0 = 0x11;
+ 193   3      		 		oDAMPERCW = 1;	// start motor cw, bring damper from 0 to 100%
+            -
+ 194   3      				nstate = wait_for_damper100;
+ 195   3      				state = idle_state;
+ 196   3      				break;
+ 197   3      			case wait_for_damper100:
+ 198   3      		 		if (ReadDamper() == 0)	//position 100%		 		 	
+ 199   3      		 		 		nstate = damper_is_at_100;
+ 200   3      		 		 state = idle_state;
+ 201   3       		 		break;
+ 202   3      		 	case damper_is_at_100:
+ 203   3      		 		oDAMPERCW = 0;
+ 204   3      		 		LcdGotoXY(2,1);
+ 205   3      				LcdWriteStr(" Purging..      ");//Blower is ON
+ 206   3      		 		nstate = set_blower_on;
+ 207   3      		 		state = idle_state;
+ 208   3      		 		break;
+ 209   3      		 	case set_blower_on:
+ 210   3      		 		oBLOWER = 1;//for 45 Sec
+ 211   3      				DelayXms(2000);
+ 212   3      				nstate = set_blower_off;
+ 213   3      				state = idle_state;
+ 214   3      		 		break;
+ 215   3      		 	case set_blower_off:
+ 216   3      		 		LcdGotoXY(2,1);
+ 217   3      				LcdWriteStr(" Purging...     ");//Blower is OFF
+ 218   3      		 		oBLOWER = 0;//for 30 Sec
+ 219   3      		 		DelayXms(2000);
+ 220   3      				nstate = set_damper_to_5;
+ 221   3      				state = idle_state;
+ 222   3      		 		break;
+ 223   3      		 	case set_damper_to_5:
+ 224   3      		 		LcdGotoXY(2,1);
+ 225   3      				LcdWriteStr(" Igniting       ");//Opening 5%
+ 226   3      		 		oDAMPERCCW = 1;	// start motor ccw, to bring damper from 100 
+            -to 5%
+ 227   3      				nstate = wait_for_damper5;
+ 228   3      				state = idle_state;
+ 229   3      				break;
+ 230   3      			case wait_for_damper5:
+ 231   3      		 		if (ReadDamper() == 6)	//position just below 5%
+ 232   3      		 		{		 		 	
+ 233   4      		 		 		nstate = damper_is_at_5;
+ 234   4      		 		 		oDAMPERCCW = 0;// 4-11-2013
+ 235   4       		 		}
+ 236   3       		 		state = idle_state;
+ 237   3       		 		break;
+ 238   3      		 	case damper_is_at_5:
+ 239   3      		 		oDAMPERCCW = 0;
+ 240   3      		 		TR2 = 0; ET2 = 0;
+ 241   3      		 		nstate = set_blower_on2;
+ 242   3      		 		state = idle_state;
+ 243   3      		 		break;
+ 244   3      		 	case set_blower_on2:
+ 245   3      		 		LcdGotoXY(2,1);
+ 246   3      				LcdWriteStr(" Igniting.      ");//Blower is ON
+ 247   3      		 		oBLOWER = 1;
+ 248   3      		 		nstate = main_gas_valve_on;
+ 249   3      		 		state = idle_state;
+ 250   3      		 		break;
+ 251   3      		 	case main_gas_valve_on:
+ 252   3      		 		oMGV = 1;
+ 253   3      		 		LcdGotoXY(2,1);
+ 254   3      				LcdWriteStr(" Igniting..     ");//MGV is ON
+ 255   3      				nstate = check_mgv;
+ 256   3      				state = idle_state;
+ 257   3      		 		break;
+ 258   3      		 	case check_mgv:
+ 259   3      		 		if(iMAINGAS==0)
+ 260   3      		 			nstate = pilot_on;
+ 261   3      		 		state = idle_state;
+ 262   3      		 		break;
+ 263   3      		 	case pilot_on:
+ 264   3      		 		LcdGotoXY(2,1);
+ 265   3      				LcdWriteStr(" Igniting...    ");//Pilot is ON
+ 266   3      		 		oPILOT = 1;
+ 267   3      		 		DelayXms(1000);
+ 268   3      		 		nstate = igniter_on;
+ 269   3      		 		state = idle_state;
+ 270   3      		 		break;
+ 271   3      		 	case igniter_on:
+ 272   3      		 		oIGNITER = 1;
+ 273   3      		 		LcdGotoXY(2,1);
+ 274   3      				LcdWriteStr(" Igniting....   ");//Igniter is ON
+ 275   3      				DelayXms(500);
+ 276   3      				nstate = set_damper_to_100_again;
+ 277   3      				state = idle_state;
+ 278   3      		 		break;
+ 279   3      		 	case set_damper_to_100_again:
+ 280   3      				oIGNITER = 0; //after 10sec
+ 281   3      				oBURNER = 1;
+ 282   3      		 		oDAMPERCW = 1;	// start motor cw, bring damper from 5 to 100%
+            -
+ 283   3      		 		LcdGotoXY(2,1);
+ 284   3      				LcdWriteStr(" Burning...     ");//Opening 100%
+ 285   3      				nstate = wait_for_damper100_again;
+ 286   3      				state = idle_state;
+ 287   3      				break;
+ 288   3      			case wait_for_damper100_again:
+ 289   3      		 		if (ReadDamper() == 0)	//position 100%		 		 	
+ 290   3      		 		 		nstate = damper_is_at_100_again;
+ 291   3       		 		state = idle_state;
+ 292   3       		 		break;
+ 293   3      		 	case damper_is_at_100_again:
+ 294   3      		 		oDAMPERCW = 0;
+ 295   3      		 		nstate = check_temp_high;
+ 296   3      		 		state = idle_state;
+ 297   3      		 		LcdGotoXY(2,1);
+ 298   3      				LcdWriteStr(" Running...     ");//Wait HIGH TEMP
+ 299   3      		 		break;
+ 300   3      		 	case check_temp_high:
+ 301   3      		 		//if((iTEMPH == 1) || (iMAINGAS==1))
+ 302   3      		 		if(iTEMPH == 1)
+ 303   3      		 		{
+ 304   4      					DelayXms(50);//500ms	to secure from glitch
+ 305   4      					//if((iTEMPH == 1) || (iMAINGAS==1))//Re Check
+ 306   4      					if(iTEMPH == 1)
+ 307   4      						nstate = close_all;
+ 308   4      		 		}
+ 309   3      		 		state = idle_state;
+ 310   3      		 		break;
+ 311   3      		 	case close_all:
+ 312   3      		 		LcdGotoXY(2,1);
+ 313   3      				LcdWriteStr(" Closing...     ");
+ 314   3      		 		oMGV = 0;
+ 315   3      		 		oPILOT = 0;
+ 316   3      		 		oIGNITER = 0;
+ 317   3      		 		oBLOWER = 0;
+ 318   3      		 		oBURNER = 0;
+ 319   3      		 		oDAMPERCW = 0;
+ 320   3      		 		oSPARE = 0;
+ 321   3      		 		oDAMPERCCW = 1;	// start motor ccw, to bring Damper from 100%
+            - to 0%
+ 322   3      				nstate = wait_for_damper_off;
+ 323   3      				state = idle_state;
+ 324   3      				break;
+ 325   3      			case wait_for_damper_off:
+ 326   3      		 		if (ReadDamper() == 7)	//position off
+ 327   3      		 		 		nstate = damper_at_off;
+ 328   3       		 		state = idle_state;
+ 329   3       		 		break;
+ 330   3      		 	case damper_at_off:
+ 331   3      		 		oDAMPERCCW = 0;
+ 332   3      	 			nstate = check_temp_low;
+ 333   3      	 			state = idle_state;
+ 334   3      		 		LcdGotoXY(2,1);
+ 335   3      				LcdWriteStr(" Closed!!!      ");//Wait LOW TEMP  
+ 336   3      		 		break;
+ 337   3      		 	case check_temp_low:
+ 338   3      		 		if(iTEMPL == 0)
+ 339   3      		 		{
+ 340   4      		 			DelayXms(50);//500ms	to secure from glitch
+ 341   4      		 			if(iTEMPL == 0)//Re Check
+ 342   4      		 				nstate = damper_is_at_0;
+ 343   4      		 		}
+ 344   3      		 		state = idle_state;
+ 345   3      		 		break;
+ 346   3      		 	case idle_state:
+ 347   3      				if(stopped)
+ 348   3      		 		{
+ 349   4      		 			state = close_all;
+ 350   4      		 			stopped = 0;
+ 351   4      		 		}
+ 352   3      		 		else
+ 353   3      		 			state = nstate;
+ 354   3      		 		break;
+ 355   3      		}//switch(state)
+ 356   2      	}//while
+ 357   1      }//main
+ 358          // Interrupt Routines
+ 359          void PCATimers() interrupt 6  using 1
+ 360          {
+ 361   1      	if(CCF0 & isInit)// Stop
+ 362   1      	{
+ 363   2      		CCF0 = 0;
+ 364   2      		CCAPM0 = 0x00;
+ 365   2      		stopped = 1;
+ 366   2      		state = idle_state;// forcefully for perging and hi temp
+ 367   2      	}
+ 368   1      }
+ 369          
+ 370          
+ 371          
+ 372          
+ 373          
+ 374          
+ 375          
+ 376          
+ 377          
+ 378          
+ 379          
+ 380          
+ 381          
+ 382          
+ 383          
+ 384          
+ 385          
+ 386          
+ 387          
+ 388          
+ 389          
+ 390          
+ 391          
+ 392          
+ 393          
+ 394          
+ 395          
+ 396          
+ 397          
+ 398          
+ 399          
+ 400          
+ 401          
+ 402          
+ 403          
+ 404          
+ 405          
+ 406          
+ 407          
+C51 COMPILER V6.11.4C,  MAIN                      11/05/113  14:37:27  PAGE  2
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+            ; FUNCTION ReadDamper (BEGIN)
+                                           ; SOURCE LINE # 84 
+0000 A2B4           MOV    C,iDAMPER100
+0002 9200    R      MOV    bt,C
+              ; R7 is assigned to temp
+                                           ; SOURCE LINE # 85 
+0004 E4             CLR    A
+0005 300001  R      JNB    bt,?LAB1
+0008 04             INC    A
+0009         ?LAB1:
+0009 FF             MOV    R7,A
+000A FE             MOV    R6,A
+              ; R6 is assigned to dmp
+                                           ; SOURCE LINE # 88 
+000B A2B2           MOV    C,iDAMPER5
+000D 9200    R      MOV    bt,C
+                                           ; SOURCE LINE # 89 
+000F E4             CLR    A
+0010 300001  R      JNB    bt,?LAB2
+0013 04             INC    A
+0014         ?LAB2:
+0014 FF             MOV    R7,A
+                                           ; SOURCE LINE # 90 
+0015 EE             MOV    A,R6
+0016 C3             CLR    C
+0017 33             RLC    A
+0018 2F             ADD    A,R7
+0019 FE             MOV    R6,A
+                                           ; SOURCE LINE # 92 
+001A A2B3           MOV    C,iDAMPER0
+001C 9200    R      MOV    bt,C
+                                           ; SOURCE LINE # 93 
+001E E4             CLR    A
+001F 300001  R      JNB    bt,?LAB3
+0022 04             INC    A
+0023         ?LAB3:
+0023 FF             MOV    R7,A
+                                           ; SOURCE LINE # 94 
+0024 EE             MOV    A,R6
+0025 C3             CLR    C
+0026 33             RLC    A
+0027 2F             ADD    A,R7
+                                           ; SOURCE LINE # 96 
+0028 FF             MOV    R7,A
+0029 22             RET    
+
+            ; FUNCTION ReadDamper (END)
+
+            ; FUNCTION _DelayXms (BEGIN)
+                                           ; SOURCE LINE # 105 
+0000 8E00    R      MOV    cnt,R6
+0002 8F00    R      MOV    cnt+01H,R7
+                                           ; SOURCE LINE # 102 
+0004 E4             CLR    A
+0005 F500    R      MOV    h,A
+0007 F500    R      MOV    h+01H,A
+0009         ?FOR1:
+0009 E500    R      MOV    A,h
+000B B50005  R      CJNE   A,cnt,?LAB9
+000E E500    R      MOV    A,h+01H
+0010 B50000  R      CJNE   A,cnt+01H,?LAB9
+0013         ?LAB9:
+0013 5011           JNC    ?NXT3
+                                           ; SOURCE LINE # 104 
+0015 300001  R      JNB    stopped,?NXT5
+0018 22             RET    
+0019         ?NXT5:
+                                           ; SOURCE LINE # 105 
+0019 120000  R      LCALL  Delay10ms
+                                           ; SOURCE LINE # 102 
+001C 0500    R      INC    h+01H
+001E E500    R      MOV    A,h+01H
+0020 70E7           JNZ    ?FOR1
+0022 0500    R      INC    h
+0024 80E3           SJMP   ?FOR1
+0026         ?NXT3:
+0026 22             RET    
+
+            ; FUNCTION _DelayXms (END)
+
+            ; FUNCTION Delay10ms (BEGIN)
+                                           ; SOURCE LINE # 111 
+0000 758A00         MOV    TL0,#000H
+                                           ; SOURCE LINE # 112 
+0003 758CDC         MOV    TH0,#0DCH
+                                           ; SOURCE LINE # 113 
+0006 D28C           SETB   TR0
+0008         ?WHILE1:
+                                           ; SOURCE LINE # 114 
+0008 308DFD         JNB    TF0,?WHILE1
+                                           ; SOURCE LINE # 115 
+000B C28C           CLR    TR0
+                                           ; SOURCE LINE # 116 
+000D C28D           CLR    TF0
+000F 22             RET    
+
+            ; FUNCTION Delay10ms (END)
+
+            ; FUNCTION DelayUs (BEGIN)
+                                           ; SOURCE LINE # 121 
+0000 758A48         MOV    TL0,#048H
+                                           ; SOURCE LINE # 122 
+0003 758CFF         MOV    TH0,#0FFH
+                                           ; SOURCE LINE # 123 
+0006 D28C           SETB   TR0
+0008         ?WHILE3:
+                                           ; SOURCE LINE # 124 
+0008 308DFD         JNB    TF0,?WHILE3
+                                           ; SOURCE LINE # 125 
+000B C28C           CLR    TR0
+                                           ; SOURCE LINE # 126 
+000D C28D           CLR    TF0
+000F 22             RET    
+
+            ; FUNCTION DelayUs (END)
+
+            ; FUNCTION LcdInit (BEGIN)
+                                           ; SOURCE LINE # 131 
+0000 7F38           MOV    R7,#038H
+0002 120000  R      LCALL  _LcdWriteCmd
+                                           ; SOURCE LINE # 132 
+0005 7F38           MOV    R7,#038H
+0007 120000  R      LCALL  _LcdWriteCmd
+                                           ; SOURCE LINE # 133 
+000A 7F38           MOV    R7,#038H
+000C 120000  R      LCALL  _LcdWriteCmd
+                                           ; SOURCE LINE # 134 
+000F 7F06           MOV    R7,#006H
+0011 120000  R      LCALL  _LcdWriteCmd
+                                           ; SOURCE LINE # 135 
+0014 7F0C           MOV    R7,#00CH
+0016 120000  R      LCALL  _LcdWriteCmd
+0019 22             RET    
+
+            ; FUNCTION LcdInit (END)
+
+            ; FUNCTION LcdBusy (BEGIN)
+                                           ; SOURCE LINE # 140 
+0000 D287           SETB   BS
+                                           ; SOURCE LINE # 141 
+0002 D292           SETB   EN
+                                           ; SOURCE LINE # 142 
+0004 C290           CLR    RS
+                                           ; SOURCE LINE # 143 
+0006 D291           SETB   RW
+0008         ?WHILE5:
+                                           ; SOURCE LINE # 144 
+0008 308706         JNB    BS,?NXT11
+                                           ; SOURCE LINE # 146 
+000B C292           CLR    EN
+                                           ; SOURCE LINE # 147 
+000D D292           SETB   EN
+000F 80F7           SJMP   ?WHILE5
+0011         ?NXT11:
+0011 22             RET    
+
+            ; FUNCTION LcdBusy (END)
+
+            ; FUNCTION _LcdWriteCmd (BEGIN)
+              ; Register R7 is assigned to parameter var
+                                           ; SOURCE LINE # 152 
+0000 8F80           MOV    P0,R7
+                                           ; SOURCE LINE # 153 
+0002 C290           CLR    RS
+                                           ; SOURCE LINE # 154 
+0004 C291           CLR    RW
+                                           ; SOURCE LINE # 155 
+0006 D292           SETB   EN
+                                           ; SOURCE LINE # 156 
+0008 C292           CLR    EN
+                                           ; SOURCE LINE # 157 
+000A 120000  R      LCALL  LcdBusy
+000D 22             RET    
+
+            ; FUNCTION _LcdWriteCmd (END)
+
+            ; FUNCTION _LcdWriteChar (BEGIN)
+              ; Register R7 is assigned to parameter var
+                                           ; SOURCE LINE # 161 
+0000 8F80           MOV    P0,R7
+                                           ; SOURCE LINE # 162 
+0002 D290           SETB   RS
+                                           ; SOURCE LINE # 163 
+0004 C291           CLR    RW
+                                           ; SOURCE LINE # 164 
+0006 D292           SETB   EN
+                                           ; SOURCE LINE # 165 
+0008 C292           CLR    EN
+                                           ; SOURCE LINE # 166 
+000A 120000  R      LCALL  LcdBusy
+000D 22             RET    
+
+            ; FUNCTION _LcdWriteChar (END)
+
+            ; FUNCTION _LcdWriteStr (BEGIN)
+              ; Register R0R4R5 is assigned to parameter var
+                                           ; SOURCE LINE # 171 
+0000 EB             MOV    A,R3
+0001 FD             MOV    R5,A
+0002 EA             MOV    A,R2
+0003 FC             MOV    R4,A
+0004 E9             MOV    A,R1
+0005 F8             MOV    R0,A
+0006         ?WHILE7:
+                                           ; SOURCE LINE # 170 
+0006 ED             MOV    A,R5
+0007 FB             MOV    R3,A
+0008 EC             MOV    A,R4
+0009 FA             MOV    R2,A
+000A E8             MOV    A,R0
+000B F9             MOV    R1,A
+000C 120000  R      LCALL  IPGN1?C
+000F 6015           JZ     ?NXT13
+                                           ; SOURCE LINE # 171 
+0011 ED             MOV    A,R5
+0012 FB             MOV    R3,A
+0013 EC             MOV    A,R4
+0014 FA             MOV    R2,A
+0015 E8             MOV    A,R0
+0016 F9             MOV    R1,A
+0017 08             INC    R0
+0018 E8             MOV    A,R0
+0019 7002           JNZ    ?LAB27
+001B 0C             INC    R4
+001C EC             MOV    A,R4
+001D         ?LAB27:
+001D 120000  R      LCALL  IPGN1?C
+0020 FF             MOV    R7,A
+0021 120000  R      LCALL  _LcdWriteChar
+0024 80E0           SJMP   ?WHILE7
+0026         ?NXT13:
+0026 22             RET    
+
+            ; FUNCTION _LcdWriteStr (END)
+
+            ; FUNCTION _LcdGotoXY (BEGIN)
+              ; Register R7 is assigned to parameter row
+              ; Register R5 is assigned to parameter col
+                                           ; SOURCE LINE # 176 
+0000 EF             MOV    A,R7
+0001 14             DEC    A
+0002 6004           JZ     ?CASE2
+0004 14             DEC    A
+0005 6009           JZ     ?CASE3
+0007 22             RET    
+0008         ?CASE2:
+                                           ; SOURCE LINE # 178 
+0008 ED             MOV    A,R5
+0009 247F           ADD    A,#07FH
+000B FF             MOV    R7,A
+000C 120000  R      LCALL  _LcdWriteCmd
+000F 22             RET    
+0010         ?CASE3:
+                                           ; SOURCE LINE # 179 
+0010 ED             MOV    A,R5
+0011 24BF           ADD    A,#0BFH
+0013 FF             MOV    R7,A
+0014 120000  R      LCALL  _LcdWriteCmd
+                                           ; SOURCE LINE # 180 
+0017 22             RET    
+                                           ; SOURCE LINE # 181 
+0018 120000  R      LCALL  Delay10ms
+001B 22             RET    
+
+            ; FUNCTION _LcdGotoXY (END)
+
+            ; FUNCTION LcdClear (BEGIN)
+                                           ; SOURCE LINE # 187 
+0000 7F01           MOV    R7,#001H
+0002 120000  R      LCALL  _LcdWriteCmd
+                                           ; SOURCE LINE # 188 
+0005 120000  R      LCALL  Delay10ms
+0008 22             RET    
+
+            ; FUNCTION LcdClear (END)
+
+            ; FUNCTION main (BEGIN)
+                                           ; SOURCE LINE # 35 
+0000 75A000         MOV    P2,#000H
+                                           ; SOURCE LINE # 36 
+0003 758921         MOV    TMOD,#021H
+                                           ; SOURCE LINE # 37 
+0006 75D800         MOV    CCON,#000H
+                                           ; SOURCE LINE # 38 
+0009 75D900         MOV    CMOD,#000H
+                                           ; SOURCE LINE # 39 
+000C 75F900         MOV    CH,#000H
+                                           ; SOURCE LINE # 40 
+000F 75E900         MOV    CL,#000H
+                                           ; SOURCE LINE # 42 
+0012 D2DE           SETB   CCON.6
+0014 85D8D8         MOV    CCON,CCON
+                                           ; SOURCE LINE # 44 
+0017 E4             CLR    A
+0018 FE             MOV    R6,A
+0019 7F64           MOV    R7,#064H
+001B 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 46 
+001E 120000  R      LCALL  LcdInit
+                                           ; SOURCE LINE # 47 
+0021 7F01           MOV    R7,#001H
+0023 7D01           MOV    R5,#001H
+0025 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 48 
+0028 7B05           MOV    R3,#005H
+002A 7A00    R      MOV    R2,#000H
+002C 7900    R      MOV    R1,#000H
+002E 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 49 
+0031 7F02           MOV    R7,#002H
+0033 7D01           MOV    R5,#001H
+0035 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 50 
+0038 7B05           MOV    R3,#005H
+003A 7A00    R      MOV    R2,#000H
+003C 7900    R      MOV    R1,#000H
+003E 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 52 
+0041 E4             CLR    A
+0042 FE             MOV    R6,A
+0043 7F64           MOV    R7,#064H
+0045 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 53 
+0048 7F01           MOV    R7,#001H
+004A 7D01           MOV    R5,#001H
+004C 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 54 
+004F 7B05           MOV    R3,#005H
+0051 7A00    R      MOV    R2,#000H
+0053 7900    R      MOV    R1,#000H
+0055 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 55 
+0058 7F02           MOV    R7,#002H
+005A 7D01           MOV    R5,#001H
+005C 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 56 
+005F 7B05           MOV    R3,#005H
+0061 7A00    R      MOV    R2,#000H
+0063 7900    R      MOV    R1,#000H
+0065 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 58 
+0068 E4             CLR    A
+0069 FE             MOV    R6,A
+006A 7F64           MOV    R7,#064H
+006C 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 59 
+006F 7F01           MOV    R7,#001H
+0071 7D01           MOV    R5,#001H
+0073 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 60 
+0076 7B05           MOV    R3,#005H
+0078 7A00    R      MOV    R2,#000H
+007A 7900    R      MOV    R1,#000H
+007C 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 61 
+007F 7F02           MOV    R7,#002H
+0081 7D01           MOV    R5,#001H
+0083 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 62 
+0086 7B05           MOV    R3,#005H
+0088 7A00    R      MOV    R2,#000H
+008A 7900    R      MOV    R1,#000H
+008C 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 65 
+008F E4             CLR    A
+0090 FE             MOV    R6,A
+0091 7F64           MOV    R7,#064H
+0093 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 66 
+0096 7F02           MOV    R7,#002H
+0098 7D01           MOV    R5,#001H
+009A 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 67 
+009D 7B05           MOV    R3,#005H
+009F 7A00    R      MOV    R2,#000H
+00A1 7900    R      MOV    R1,#000H
+00A3 120000  R      LCALL  _LcdWriteStr
+00A6         ?WHILE19:
+                                           ; SOURCE LINE # 68 
+00A6 309304         JNB    iSTOP,?NXT42
+                                           ; SOURCE LINE # 69 
+00A9 D2A5           SETB   oSPARE
+00AB 80F9           SJMP   ?WHILE19
+00AD         ?NXT42:
+                                           ; SOURCE LINE # 71 
+00AD C2A5           CLR    oSPARE
+                                           ; SOURCE LINE # 72 
+00AF E4             CLR    A
+00B0 FE             MOV    R6,A
+00B1 7F32           MOV    R7,#032H
+00B3 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 73 
+00B6 7F02           MOV    R7,#002H
+00B8 7D01           MOV    R5,#001H
+00BA 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 74 
+00BD 7B05           MOV    R3,#005H
+00BF 7A00    R      MOV    R2,#000H
+00C1 7900    R      MOV    R1,#000H
+00C3 120000  R      LCALL  _LcdWriteStr
+00C6         ?WHILE20:
+                                           ; SOURCE LINE # 75 
+00C6 309504         JNB    iTEMPH,?NXT43
+                                           ; SOURCE LINE # 76 
+00C9 D2A5           SETB   oSPARE
+00CB 80F9           SJMP   ?WHILE20
+00CD         ?NXT43:
+                                           ; SOURCE LINE # 79 
+00CD C2A5           CLR    oSPARE
+                                           ; SOURCE LINE # 80 
+00CF E4             CLR    A
+00D0 FE             MOV    R6,A
+00D1 7F32           MOV    R7,#032H
+00D3 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 81 
+00D6 7F02           MOV    R7,#002H
+00D8 7D01           MOV    R5,#001H
+00DA 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 82 
+00DD 7B05           MOV    R3,#005H
+00DF 7A00    R      MOV    R2,#000H
+00E1 7900    R      MOV    R1,#000H
+00E3 120000  R      LCALL  _LcdWriteStr
+00E6         ?WHILE21:
+                                           ; SOURCE LINE # 83 
+00E6 309604         JNB    iTEMPL,?NXT44
+                                           ; SOURCE LINE # 84 
+00E9 D2A5           SETB   oSPARE
+00EB 80F9           SJMP   ?WHILE21
+00ED         ?NXT44:
+                                           ; SOURCE LINE # 86 
+00ED C2A5           CLR    oSPARE
+                                           ; SOURCE LINE # 87 
+00EF E4             CLR    A
+00F0 FE             MOV    R6,A
+00F1 7F32           MOV    R7,#032H
+00F3 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 88 
+00F6 7F02           MOV    R7,#002H
+00F8 7D01           MOV    R5,#001H
+00FA 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 89 
+00FD 7B05           MOV    R3,#005H
+00FF 7A00    R      MOV    R2,#000H
+0101 7900    R      MOV    R1,#000H
+0103 120000  R      LCALL  _LcdWriteStr
+0106         ?WHILE22:
+                                           ; SOURCE LINE # 90 
+0106 20B504         JB     iMAINGAS,?NXT45
+                                           ; SOURCE LINE # 91 
+0109 D2A5           SETB   oSPARE
+010B 80F9           SJMP   ?WHILE22
+010D         ?NXT45:
+                                           ; SOURCE LINE # 93 
+010D D2AE           SETB   EC
+                                           ; SOURCE LINE # 94 
+010F D2AF           SETB   EA
+                                           ; SOURCE LINE # 96 
+0111 7F02           MOV    R7,#002H
+0113 7D01           MOV    R5,#001H
+0115 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 97 
+0118 E4             CLR    A
+0119 FE             MOV    R6,A
+011A 7F32           MOV    R7,#032H
+011C 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 98 
+011F 7B05           MOV    R3,#005H
+0121 7A00    R      MOV    R2,#000H
+0123 7900    R      MOV    R1,#000H
+0125 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 99 
+0128 7F02           MOV    R7,#002H
+012A 7D0D           MOV    R5,#00DH
+012C 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 100 
+012F 120000  R      LCALL  ReadDamper
+0132 EF             MOV    A,R7
+0133 2430           ADD    A,#030H
+0135 FF             MOV    R7,A
+0136 120000  R      LCALL  _LcdWriteChar
+0139         ?WHILE23:
+                                           ; SOURCE LINE # 103 
+0139 120000  R      LCALL  ReadDamper
+013C BF07FA         CJNE   R7,#007H,?WHILE23
+                                           ; SOURCE LINE # 104 
+013F C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 105 
+0141 7F02           MOV    R7,#002H
+0143 7D01           MOV    R5,#001H
+0145 120000  R      LCALL  _LcdGotoXY
+0148 7B05           MOV    R3,#005H
+014A 7A00    R      MOV    R2,#000H
+014C 7900    R      MOV    R1,#000H
+014E 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 106 
+0151 7E07           MOV    R6,#007H
+0153 7FD0           MOV    R7,#0D0H
+0155 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 108 
+0158 D2A0           SETB   oDAMPERCW
+015A         ?WHILE24:
+                                           ; SOURCE LINE # 109 
+015A 120000  R      LCALL  ReadDamper
+015D BF06FA         CJNE   R7,#006H,?WHILE24
+                                           ; SOURCE LINE # 110 
+0160 C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 111 
+0162 7F02           MOV    R7,#002H
+0164 7D01           MOV    R5,#001H
+0166 120000  R      LCALL  _LcdGotoXY
+0169 7B05           MOV    R3,#005H
+016B 7A00    R      MOV    R2,#000H
+016D 7900    R      MOV    R1,#000H
+016F 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 112 
+0172 7E07           MOV    R6,#007H
+0174 7FD0           MOV    R7,#0D0H
+0176 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 114 
+0179 D2A0           SETB   oDAMPERCW
+017B         ?WHILE25:
+                                           ; SOURCE LINE # 115 
+017B 120000  R      LCALL  ReadDamper
+017E BF04FA         CJNE   R7,#004H,?WHILE25
+                                           ; SOURCE LINE # 116 
+0181 C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 117 
+0183 7F02           MOV    R7,#002H
+0185 7D01           MOV    R5,#001H
+0187 120000  R      LCALL  _LcdGotoXY
+018A 7B05           MOV    R3,#005H
+018C 7A00    R      MOV    R2,#000H
+018E 7900    R      MOV    R1,#000H
+0190 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 118 
+0193 7E07           MOV    R6,#007H
+0195 7FD0           MOV    R7,#0D0H
+0197 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 120 
+019A D2A0           SETB   oDAMPERCW
+019C         ?WHILE26:
+                                           ; SOURCE LINE # 121 
+019C 120000  R      LCALL  ReadDamper
+019F EF             MOV    A,R7
+01A0 70FA           JNZ    ?WHILE26
+                                           ; SOURCE LINE # 122 
+01A2 C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 123 
+01A4 7F02           MOV    R7,#002H
+01A6 7D01           MOV    R5,#001H
+01A8 120000  R      LCALL  _LcdGotoXY
+01AB 7B05           MOV    R3,#005H
+01AD 7A00    R      MOV    R2,#000H
+01AF 7900    R      MOV    R1,#000H
+01B1 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 124 
+01B4 7E07           MOV    R6,#007H
+01B6 7FD0           MOV    R7,#0D0H
+01B8 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 126 
+01BB D2A1           SETB   oDAMPERCCW
+01BD         ?WHILE27:
+                                           ; SOURCE LINE # 127 
+01BD 120000  R      LCALL  ReadDamper
+01C0 BF06FA         CJNE   R7,#006H,?WHILE27
+                                           ; SOURCE LINE # 128 
+01C3 C2A1           CLR    oDAMPERCCW
+                                           ; SOURCE LINE # 129 
+01C5 7F02           MOV    R7,#002H
+01C7 7D01           MOV    R5,#001H
+01C9 120000  R      LCALL  _LcdGotoXY
+01CC 7B05           MOV    R3,#005H
+01CE 7A00    R      MOV    R2,#000H
+01D0 7900    R      MOV    R1,#000H
+01D2 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 130 
+01D5 7E07           MOV    R6,#007H
+01D7 7FD0           MOV    R7,#0D0H
+01D9 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 132 
+01DC D2A1           SETB   oDAMPERCCW
+01DE         ?WHILE28:
+                                           ; SOURCE LINE # 133 
+01DE 120000  R      LCALL  ReadDamper
+01E1 BF07FA         CJNE   R7,#007H,?WHILE28
+                                           ; SOURCE LINE # 134 
+01E4 C2A1           CLR    oDAMPERCCW
+                                           ; SOURCE LINE # 135 
+01E6 7F02           MOV    R7,#002H
+01E8 7D01           MOV    R5,#001H
+01EA 120000  R      LCALL  _LcdGotoXY
+01ED 7B05           MOV    R3,#005H
+01EF 7A00    R      MOV    R2,#000H
+01F1 7900    R      MOV    R1,#000H
+01F3 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 136 
+01F6 7E07           MOV    R6,#007H
+01F8 7FD0           MOV    R7,#0D0H
+01FA 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 138 
+01FD E4             CLR    A
+01FE FE             MOV    R6,A
+01FF 7F64           MOV    R7,#064H
+0201 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 139 
+0204 E4             CLR    A
+0205 F500    R      MOV    state,A
+0207 750001  R      MOV    state+01H,#001H
+                                           ; SOURCE LINE # 140 
+020A 850000  R      MOV    nstate,state
+020D 850000  R      MOV    nstate+01H,state+01H
+                                           ; SOURCE LINE # 143 
+0210 D200    R      SETB   isInit
+0212         ?WHILE29:
+                                           ; SOURCE LINE # 145 
+0212 200003  R      JB     isInit,$ + 6
+0215 020000  R      LJMP   ?NXT52
+                                           ; SOURCE LINE # 147 
+0218 AA00    R      MOV    R2,state
+021A AB00    R      MOV    R3,state+01H
+021C EA             MOV    A,R2
+021D BA0002         CJNE   R2,#000H,$ + 5
+0220 8003           SJMP   $ + 5
+0222 020000  R      LJMP   ?NXT53
+0225 EB             MOV    A,R3
+0226 24FF           ADD    A,#0FFH
+0228 B41C00         CJNE   A,#01CH,?LAB40
+022B         ?LAB40:
+022B 4003           JC     $ + 5
+022D 020000  R      LJMP   ?NXT53
+0230 FA             MOV    R2,A
+0231 23             RL     A
+0232 2A             ADD    A,R2
+0233 900000  R      MOV    DPTR,#?LAB41
+0236 73             JMP    @A+DPTR
+0237         ?LAB41:
+0237 020000  R      LJMP   ?CASE32
+023A 020000  R      LJMP   ?CASE33
+023D 020000  R      LJMP   ?CASE34
+0240 020000  R      LJMP   ?CASE35
+0243 020000  R      LJMP   ?CASE36
+0246 020000  R      LJMP   ?CASE37
+0249 020000  R      LJMP   ?CASE38
+024C 020000  R      LJMP   ?CASE39
+024F 020000  R      LJMP   ?CASE40
+0252 020000  R      LJMP   ?CASE41
+0255 020000  R      LJMP   ?CASE42
+0258 020000  R      LJMP   ?CASE43
+025B 020000  R      LJMP   ?CASE44
+025E 020000  R      LJMP   ?CASE45
+0261 020000  R      LJMP   ?CASE46
+0264 020000  R      LJMP   ?CASE47
+0267 020000  R      LJMP   ?CASE48
+026A 020000  R      LJMP   ?CASE49
+026D 020000  R      LJMP   ?CASE50
+0270 020000  R      LJMP   ?CASE51
+0273 020000  R      LJMP   ?CASE52
+0276 020000  R      LJMP   ?CASE53
+0279 020000  R      LJMP   ?CASE54
+027C 020000  R      LJMP   ?CASE55
+027F 020000  R      LJMP   ?CASE56
+0282 020000  R      LJMP   ?CASE57
+0285 020000  R      LJMP   ?CASE58
+0288 020000  R      LJMP   ?CASE59
+028B 8085           SJMP   ?WHILE29
+028D         ?CASE32:
+                                           ; SOURCE LINE # 150 
+028D 120000  R      LCALL  ReadDamper
+0290 BF0708         CJNE   R7,#007H,?ELSE16
+                                           ; SOURCE LINE # 151 
+0293 E4             CLR    A
+0294 F500    R      MOV    nstate,A
+0296 750002  R      MOV    nstate+01H,#002H
+0299 8008           SJMP   ?NXT54
+029B         ?ELSE16:
+                                           ; SOURCE LINE # 154 
+029B D2A1           SETB   oDAMPERCCW
+                                           ; SOURCE LINE # 155 
+029D E4             CLR    A
+029E F500    R      MOV    nstate,A
+02A0 75001C  R      MOV    nstate+01H,#01CH
+02A3         ?NXT54:
+                                           ; SOURCE LINE # 157 
+02A3 E4             CLR    A
+02A4 F500    R      MOV    state,A
+02A6 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 158 
+02A9 020000  R      LJMP   ?WHILE29
+02AC         ?CASE59:
+                                           ; SOURCE LINE # 160 
+02AC 120000  R      LCALL  ReadDamper
+02AF BF0706         CJNE   R7,#007H,?NXT55
+                                           ; SOURCE LINE # 161 
+02B2 E4             CLR    A
+02B3 F500    R      MOV    nstate,A
+02B5 750002  R      MOV    nstate+01H,#002H
+02B8         ?NXT55:
+                                           ; SOURCE LINE # 162 
+02B8 E4             CLR    A
+02B9 F500    R      MOV    state,A
+02BB 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 163 
+02BE 020000  R      LJMP   ?WHILE29
+02C1         ?CASE33:
+                                           ; SOURCE LINE # 165 
+02C1 C2A1           CLR    oDAMPERCCW
+                                           ; SOURCE LINE # 166 
+02C3 E4             CLR    A
+02C4 FE             MOV    R6,A
+02C5 7F64           MOV    R7,#064H
+02C7 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 168 
+02CA D2A0           SETB   oDAMPERCW
+                                           ; SOURCE LINE # 169 
+02CC E4             CLR    A
+02CD F500    R      MOV    nstate,A
+02CF 750003  R      MOV    nstate+01H,#003H
+                                           ; SOURCE LINE # 170 
+02D2 F500    R      MOV    state,A
+02D4 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 171 
+02D7 020000  R      LJMP   ?WHILE29
+02DA         ?CASE34:
+                                           ; SOURCE LINE # 173 
+02DA 120000  R      LCALL  ReadDamper
+02DD BF0606         CJNE   R7,#006H,?NXT56
+                                           ; SOURCE LINE # 174 
+02E0 E4             CLR    A
+02E1 F500    R      MOV    nstate,A
+02E3 750004  R      MOV    nstate+01H,#004H
+02E6         ?NXT56:
+                                           ; SOURCE LINE # 175 
+02E6 E4             CLR    A
+02E7 F500    R      MOV    state,A
+02E9 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 176 
+02EC 020000  R      LJMP   ?WHILE29
+02EF         ?CASE35:
+                                           ; SOURCE LINE # 178 
+02EF C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 179 
+02F1 E4             CLR    A
+02F2 F500    R      MOV    nstate,A
+02F4 750005  R      MOV    nstate+01H,#005H
+                                           ; SOURCE LINE # 180 
+02F7 F500    R      MOV    state,A
+02F9 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 181 
+02FC 7F02           MOV    R7,#002H
+02FE 7D01           MOV    R5,#001H
+0300 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 182 
+0303 7B05           MOV    R3,#005H
+0305 7A00    R      MOV    R2,#000H
+0307 7900    R      MOV    R1,#000H
+0309 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 183 
+030C 020000  R      LJMP   ?WHILE29
+030F         ?CASE36:
+                                           ; SOURCE LINE # 185 
+030F 209406         JB     iSTART,?NXT57
+                                           ; SOURCE LINE # 186 
+0312 E4             CLR    A
+0313 F500    R      MOV    nstate,A
+0315 750006  R      MOV    nstate+01H,#006H
+0318         ?NXT57:
+                                           ; SOURCE LINE # 187 
+0318 E4             CLR    A
+0319 F500    R      MOV    state,A
+031B 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 188 
+031E 020000  R      LJMP   ?WHILE29
+0321         ?CASE37:
+                                           ; SOURCE LINE # 190 
+0321 7F02           MOV    R7,#002H
+0323 7D01           MOV    R5,#001H
+0325 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 191 
+0328 7B05           MOV    R3,#005H
+032A 7A00    R      MOV    R2,#000H
+032C 7900    R      MOV    R1,#000H
+032E 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 192 
+0331 75DA11         MOV    CCAPM0,#011H
+                                           ; SOURCE LINE # 193 
+0334 D2A0           SETB   oDAMPERCW
+                                           ; SOURCE LINE # 194 
+0336 E4             CLR    A
+0337 F500    R      MOV    nstate,A
+0339 750007  R      MOV    nstate+01H,#007H
+                                           ; SOURCE LINE # 195 
+033C F500    R      MOV    state,A
+033E 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 196 
+0341 020000  R      LJMP   ?WHILE29
+0344         ?CASE38:
+                                           ; SOURCE LINE # 198 
+0344 120000  R      LCALL  ReadDamper
+0347 EF             MOV    A,R7
+0348 7006           JNZ    ?NXT58
+                                           ; SOURCE LINE # 199 
+034A E4             CLR    A
+034B F500    R      MOV    nstate,A
+034D 750008  R      MOV    nstate+01H,#008H
+0350         ?NXT58:
+                                           ; SOURCE LINE # 200 
+0350 E4             CLR    A
+0351 F500    R      MOV    state,A
+0353 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 201 
+0356 020000  R      LJMP   ?WHILE29
+0359         ?CASE39:
+                                           ; SOURCE LINE # 203 
+0359 C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 204 
+035B 7F02           MOV    R7,#002H
+035D 7D01           MOV    R5,#001H
+035F 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 205 
+0362 7B05           MOV    R3,#005H
+0364 7A00    R      MOV    R2,#000H
+0366 7900    R      MOV    R1,#000H
+0368 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 206 
+036B E4             CLR    A
+036C F500    R      MOV    nstate,A
+036E 750009  R      MOV    nstate+01H,#009H
+                                           ; SOURCE LINE # 207 
+0371 F500    R      MOV    state,A
+0373 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 208 
+0376 020000  R      LJMP   ?WHILE29
+0379         ?CASE40:
+                                           ; SOURCE LINE # 210 
+0379 D2A6           SETB   oBLOWER
+                                           ; SOURCE LINE # 211 
+037B 7E07           MOV    R6,#007H
+037D 7FD0           MOV    R7,#0D0H
+037F 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 212 
+0382 E4             CLR    A
+0383 F500    R      MOV    nstate,A
+0385 75000A  R      MOV    nstate+01H,#00AH
+                                           ; SOURCE LINE # 213 
+0388 F500    R      MOV    state,A
+038A 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 214 
+038D 020000  R      LJMP   ?WHILE29
+0390         ?CASE41:
+                                           ; SOURCE LINE # 216 
+0390 7F02           MOV    R7,#002H
+0392 7D01           MOV    R5,#001H
+0394 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 217 
+0397 7B05           MOV    R3,#005H
+0399 7A00    R      MOV    R2,#000H
+039B 7900    R      MOV    R1,#000H
+039D 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 218 
+03A0 C2A6           CLR    oBLOWER
+                                           ; SOURCE LINE # 219 
+03A2 7E07           MOV    R6,#007H
+03A4 7FD0           MOV    R7,#0D0H
+03A6 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 220 
+03A9 E4             CLR    A
+03AA F500    R      MOV    nstate,A
+03AC 75000B  R      MOV    nstate+01H,#00BH
+                                           ; SOURCE LINE # 221 
+03AF F500    R      MOV    state,A
+03B1 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 222 
+03B4 020000  R      LJMP   ?WHILE29
+03B7         ?CASE42:
+                                           ; SOURCE LINE # 224 
+03B7 7F02           MOV    R7,#002H
+03B9 7D01           MOV    R5,#001H
+03BB 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 225 
+03BE 7B05           MOV    R3,#005H
+03C0 7A00    R      MOV    R2,#000H
+03C2 7900    R      MOV    R1,#000H
+03C4 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 226 
+03C7 D2A1           SETB   oDAMPERCCW
+                                           ; SOURCE LINE # 227 
+03C9 E4             CLR    A
+03CA F500    R      MOV    nstate,A
+03CC 75000C  R      MOV    nstate+01H,#00CH
+                                           ; SOURCE LINE # 228 
+03CF F500    R      MOV    state,A
+03D1 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 229 
+03D4 020000  R      LJMP   ?WHILE29
+03D7         ?CASE43:
+                                           ; SOURCE LINE # 231 
+03D7 120000  R      LCALL  ReadDamper
+03DA BF0608         CJNE   R7,#006H,?NXT59
+                                           ; SOURCE LINE # 233 
+03DD E4             CLR    A
+03DE F500    R      MOV    nstate,A
+03E0 75000D  R      MOV    nstate+01H,#00DH
+                                           ; SOURCE LINE # 234 
+03E3 C2A1           CLR    oDAMPERCCW
+03E5         ?NXT59:
+                                           ; SOURCE LINE # 236 
+03E5 E4             CLR    A
+03E6 F500    R      MOV    state,A
+03E8 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 237 
+03EB 020000  R      LJMP   ?WHILE29
+03EE         ?CASE44:
+                                           ; SOURCE LINE # 239 
+03EE C2A1           CLR    oDAMPERCCW
+                                           ; SOURCE LINE # 240 
+03F0 C2CA           CLR    TR2
+03F2 C2AD           CLR    ET2
+                                           ; SOURCE LINE # 241 
+03F4 E4             CLR    A
+03F5 F500    R      MOV    nstate,A
+03F7 75000E  R      MOV    nstate+01H,#00EH
+                                           ; SOURCE LINE # 242 
+03FA F500    R      MOV    state,A
+03FC 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 243 
+03FF 020000  R      LJMP   ?WHILE29
+0402         ?CASE45:
+                                           ; SOURCE LINE # 245 
+0402 7F02           MOV    R7,#002H
+0404 7D01           MOV    R5,#001H
+0406 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 246 
+0409 7B05           MOV    R3,#005H
+040B 7A00    R      MOV    R2,#000H
+040D 7900    R      MOV    R1,#000H
+040F 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 247 
+0412 D2A6           SETB   oBLOWER
+                                           ; SOURCE LINE # 248 
+0414 E4             CLR    A
+0415 F500    R      MOV    nstate,A
+0417 75000F  R      MOV    nstate+01H,#00FH
+                                           ; SOURCE LINE # 249 
+041A F500    R      MOV    state,A
+041C 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 250 
+041F 020000  R      LJMP   ?WHILE29
+0422         ?CASE46:
+                                           ; SOURCE LINE # 252 
+0422 D2A4           SETB   oMGV
+                                           ; SOURCE LINE # 253 
+0424 7F02           MOV    R7,#002H
+0426 7D01           MOV    R5,#001H
+0428 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 254 
+042B 7B05           MOV    R3,#005H
+042D 7A00    R      MOV    R2,#000H
+042F 7900    R      MOV    R1,#000H
+0431 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 255 
+0434 E4             CLR    A
+0435 F500    R      MOV    nstate,A
+0437 750010  R      MOV    nstate+01H,#010H
+                                           ; SOURCE LINE # 256 
+043A F500    R      MOV    state,A
+043C 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 257 
+043F 020000  R      LJMP   ?WHILE29
+0442         ?CASE47:
+                                           ; SOURCE LINE # 259 
+0442 20B506         JB     iMAINGAS,?NXT60
+                                           ; SOURCE LINE # 260 
+0445 E4             CLR    A
+0446 F500    R      MOV    nstate,A
+0448 750011  R      MOV    nstate+01H,#011H
+044B         ?NXT60:
+                                           ; SOURCE LINE # 261 
+044B E4             CLR    A
+044C F500    R      MOV    state,A
+044E 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 262 
+0451 020000  R      LJMP   ?WHILE29
+0454         ?CASE48:
+                                           ; SOURCE LINE # 264 
+0454 7F02           MOV    R7,#002H
+0456 7D01           MOV    R5,#001H
+0458 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 265 
+045B 7B05           MOV    R3,#005H
+045D 7A00    R      MOV    R2,#000H
+045F 7900    R      MOV    R1,#000H
+0461 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 266 
+0464 D2A2           SETB   oPILOT
+                                           ; SOURCE LINE # 267 
+0466 7E03           MOV    R6,#003H
+0468 7FE8           MOV    R7,#0E8H
+046A 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 268 
+046D E4             CLR    A
+046E F500    R      MOV    nstate,A
+0470 750012  R      MOV    nstate+01H,#012H
+                                           ; SOURCE LINE # 269 
+0473 F500    R      MOV    state,A
+0475 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 270 
+0478 020000  R      LJMP   ?WHILE29
+047B         ?CASE49:
+                                           ; SOURCE LINE # 272 
+047B D2A7           SETB   oIGNITER
+                                           ; SOURCE LINE # 273 
+047D 7F02           MOV    R7,#002H
+047F 7D01           MOV    R5,#001H
+0481 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 274 
+0484 7B05           MOV    R3,#005H
+0486 7A00    R      MOV    R2,#000H
+0488 7900    R      MOV    R1,#000H
+048A 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 275 
+048D 7E01           MOV    R6,#001H
+048F 7FF4           MOV    R7,#0F4H
+0491 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 276 
+0494 E4             CLR    A
+0495 F500    R      MOV    nstate,A
+0497 750013  R      MOV    nstate+01H,#013H
+                                           ; SOURCE LINE # 277 
+049A F500    R      MOV    state,A
+049C 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 278 
+049F 020000  R      LJMP   ?WHILE29
+04A2         ?CASE50:
+                                           ; SOURCE LINE # 280 
+04A2 C2A7           CLR    oIGNITER
+                                           ; SOURCE LINE # 281 
+04A4 D2A3           SETB   oBURNER
+                                           ; SOURCE LINE # 282 
+04A6 D2A0           SETB   oDAMPERCW
+                                           ; SOURCE LINE # 283 
+04A8 7F02           MOV    R7,#002H
+04AA 7D01           MOV    R5,#001H
+04AC 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 284 
+04AF 7B05           MOV    R3,#005H
+04B1 7A00    R      MOV    R2,#000H
+04B3 7900    R      MOV    R1,#000H
+04B5 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 285 
+04B8 E4             CLR    A
+04B9 F500    R      MOV    nstate,A
+04BB 750014  R      MOV    nstate+01H,#014H
+                                           ; SOURCE LINE # 286 
+04BE F500    R      MOV    state,A
+04C0 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 287 
+04C3 020000  R      LJMP   ?WHILE29
+04C6         ?CASE51:
+                                           ; SOURCE LINE # 289 
+04C6 120000  R      LCALL  ReadDamper
+04C9 EF             MOV    A,R7
+04CA 7006           JNZ    ?NXT61
+                                           ; SOURCE LINE # 290 
+04CC E4             CLR    A
+04CD F500    R      MOV    nstate,A
+04CF 750015  R      MOV    nstate+01H,#015H
+04D2         ?NXT61:
+                                           ; SOURCE LINE # 291 
+04D2 E4             CLR    A
+04D3 F500    R      MOV    state,A
+04D5 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 292 
+04D8 020000  R      LJMP   ?WHILE29
+04DB         ?CASE52:
+                                           ; SOURCE LINE # 294 
+04DB C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 295 
+04DD E4             CLR    A
+04DE F500    R      MOV    nstate,A
+04E0 750016  R      MOV    nstate+01H,#016H
+                                           ; SOURCE LINE # 296 
+04E3 F500    R      MOV    state,A
+04E5 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 297 
+04E8 7F02           MOV    R7,#002H
+04EA 7D01           MOV    R5,#001H
+04EC 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 298 
+04EF 7B05           MOV    R3,#005H
+04F1 7A00    R      MOV    R2,#000H
+04F3 7900    R      MOV    R1,#000H
+04F5 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 299 
+04F8 020000  R      LJMP   ?WHILE29
+04FB         ?CASE53:
+                                           ; SOURCE LINE # 302 
+04FB 309510         JNB    iTEMPH,?NXT62
+                                           ; SOURCE LINE # 304 
+04FE E4             CLR    A
+04FF FE             MOV    R6,A
+0500 7F32           MOV    R7,#032H
+0502 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 306 
+0505 309506         JNB    iTEMPH,?NXT62
+                                           ; SOURCE LINE # 307 
+0508 E4             CLR    A
+0509 F500    R      MOV    nstate,A
+050B 750017  R      MOV    nstate+01H,#017H
+050E         ?NXT62:
+                                           ; SOURCE LINE # 309 
+050E E4             CLR    A
+050F F500    R      MOV    state,A
+0511 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 310 
+0514 020000  R      LJMP   ?WHILE29
+0517         ?CASE54:
+                                           ; SOURCE LINE # 312 
+0517 7F02           MOV    R7,#002H
+0519 7D01           MOV    R5,#001H
+051B 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 313 
+051E 7B05           MOV    R3,#005H
+0520 7A00    R      MOV    R2,#000H
+0522 7900    R      MOV    R1,#000H
+0524 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 314 
+0527 C2A4           CLR    oMGV
+                                           ; SOURCE LINE # 315 
+0529 C2A2           CLR    oPILOT
+                                           ; SOURCE LINE # 316 
+052B C2A7           CLR    oIGNITER
+                                           ; SOURCE LINE # 317 
+052D C2A6           CLR    oBLOWER
+                                           ; SOURCE LINE # 318 
+052F C2A3           CLR    oBURNER
+                                           ; SOURCE LINE # 319 
+0531 C2A0           CLR    oDAMPERCW
+                                           ; SOURCE LINE # 320 
+0533 C2A5           CLR    oSPARE
+                                           ; SOURCE LINE # 321 
+0535 D2A1           SETB   oDAMPERCCW
+                                           ; SOURCE LINE # 322 
+0537 E4             CLR    A
+0538 F500    R      MOV    nstate,A
+053A 750018  R      MOV    nstate+01H,#018H
+                                           ; SOURCE LINE # 323 
+053D F500    R      MOV    state,A
+053F 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 324 
+0542 020000  R      LJMP   ?WHILE29
+0545         ?CASE55:
+                                           ; SOURCE LINE # 326 
+0545 120000  R      LCALL  ReadDamper
+0548 BF0706         CJNE   R7,#007H,?NXT64
+                                           ; SOURCE LINE # 327 
+054B E4             CLR    A
+054C F500    R      MOV    nstate,A
+054E 750019  R      MOV    nstate+01H,#019H
+0551         ?NXT64:
+                                           ; SOURCE LINE # 328 
+0551 E4             CLR    A
+0552 F500    R      MOV    state,A
+0554 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 329 
+0557 020000  R      LJMP   ?WHILE29
+055A         ?CASE56:
+                                           ; SOURCE LINE # 331 
+055A C2A1           CLR    oDAMPERCCW
+                                           ; SOURCE LINE # 332 
+055C E4             CLR    A
+055D F500    R      MOV    nstate,A
+055F 75001A  R      MOV    nstate+01H,#01AH
+                                           ; SOURCE LINE # 333 
+0562 F500    R      MOV    state,A
+0564 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 334 
+0567 7F02           MOV    R7,#002H
+0569 7D01           MOV    R5,#001H
+056B 120000  R      LCALL  _LcdGotoXY
+                                           ; SOURCE LINE # 335 
+056E 7B05           MOV    R3,#005H
+0570 7A00    R      MOV    R2,#000H
+0572 7900    R      MOV    R1,#000H
+0574 120000  R      LCALL  _LcdWriteStr
+                                           ; SOURCE LINE # 336 
+0577 020000  R      LJMP   ?WHILE29
+057A         ?CASE57:
+                                           ; SOURCE LINE # 338 
+057A 209610         JB     iTEMPL,?NXT65
+                                           ; SOURCE LINE # 340 
+057D E4             CLR    A
+057E FE             MOV    R6,A
+057F 7F32           MOV    R7,#032H
+0581 120000  R      LCALL  _DelayXms
+                                           ; SOURCE LINE # 341 
+0584 209606         JB     iTEMPL,?NXT65
+                                           ; SOURCE LINE # 342 
+0587 E4             CLR    A
+0588 F500    R      MOV    nstate,A
+058A 750004  R      MOV    nstate+01H,#004H
+058D         ?NXT65:
+                                           ; SOURCE LINE # 344 
+058D E4             CLR    A
+058E F500    R      MOV    state,A
+0590 75001B  R      MOV    state+01H,#01BH
+                                           ; SOURCE LINE # 345 
+0593 020000  R      LJMP   ?WHILE29
+0596         ?CASE58:
+                                           ; SOURCE LINE # 347 
+0596 30000A  R      JNB    stopped,?ELSE29
+                                           ; SOURCE LINE # 349 
+0599 E4             CLR    A
+059A F500    R      MOV    state,A
+059C 750017  R      MOV    state+01H,#017H
+                                           ; SOURCE LINE # 350 
+059F C200    R      CLR    stopped
+05A1 8006           SJMP   ?NXT53
+05A3         ?ELSE29:
+                                           ; SOURCE LINE # 353 
+05A3 850000  R      MOV    state,nstate
+05A6 850000  R      MOV    state+01H,nstate+01H
+05A9         ?NXT53:
+                                           ; SOURCE LINE # 354 
+05A9 020000  R      LJMP   ?WHILE29
+05AC         ?NXT52:
+05AC 22             RET    
+
+            ; FUNCTION main (END)
+
+            ; FUNCTION PCATimers (BEGIN)
+                                           ; SOURCE LINE # 366 
+0000 C0E0           PUSH   ACC
+0002 C0D0           PUSH   PSW
+0004 75D008         MOV    PSW,#008H
+                                           ; SOURCE LINE # 361 
+0007 30D810         JNB    CCF0,?NXT71
+000A 30000D  R      JNB    isInit,?NXT71
+                                           ; SOURCE LINE # 363 
+000D C2D8           CLR    CCF0
+                                           ; SOURCE LINE # 364 
+000F 75DA00         MOV    CCAPM0,#000H
+                                           ; SOURCE LINE # 365 
+0012 D200    R      SETB   stopped
+                                           ; SOURCE LINE # 366 
+0014 E4             CLR    A
+0015 F500    R      MOV    state,A
+0017 75001B  R      MOV    state+01H,#01BH
+001A         ?NXT71:
+001A D0D0           POP    PSW
+001C D0E0           POP    ACC
+001E 32             RETI   
+
+            ; FUNCTION PCATimers (END)
+
+C51 COMPILER V6.11.4C,  MAIN                      11/05/113  14:37:27  PAGE  3
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+isInit . . . . . . . . . . . . . . . .  PUBLIC  DATA    BIT     0000H   1    
+stopped. . . . . . . . . . . . . . . .  PUBLIC  DATA    BIT     0001H   1    
+state. . . . . . . . . . . . . . . . .  PUBLIC  DATA    INT     0000H   2    
+nstate . . . . . . . . . . . . . . . .  PUBLIC  DATA    INT     0002H   2    
+ReadDamper . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+bt?049 . . . . . . . . . . . . . . . .  PUBLIC  DATA    BIT     0000H   1    
+dmp?050. . . . . . . . . . . . . . . .  PUBLIC  DATA    BASE    0000H   1    
+temp?051 . . . . . . . . . . . . . . .  PUBLIC  DATA    BASE    0000H   1    
+DelayXms . . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+  cnt?052. . . . . . . . . . . . . . .  PARAM   DATA    U_INT  0000H   2    
+  cnt?052. . . . . . . . . . . . . . .  PARAM   DATA    U_INT  0000H   2    
+h?053. . . . . . . . . . . . . . . . .  PUBLIC  DATA    U_INT  0002H   2    
+Delay10ms. . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+DelayUs. . . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+LcdInit. . . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+LcdBusy. . . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+LcdWriteCmd. . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+  var?056. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0000H   1    
+  var?056. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0000H   1    
+LcdWriteChar . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+  var?057. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0000H   1    
+  var?057. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0000H   1    
+LcdWriteStr. . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+  var?058. . . . . . . . . . . . . . .  PARAM   DATA    PTR     0000H   3    
+  var?058. . . . . . . . . . . . . . .  PARAM   DATA    PTR     0000H   3    
+LcdGotoXY. . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+  row?059. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0000H   1    
+  col?060. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0001H   1    
+  row?059. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0000H   1    
+  col?060. . . . . . . . . . . . . . .  PARAM   DATA    BASE    0001H   1    
+LcdClear . . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+main . . . . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+PCATimers. . . . . . . . . . . . . . .  PUBLIC  CODE    PROC    -----   -----
+C51 COMPILER V6.11.4C,  MAIN                      11/05/113  14:37:28  PAGE  4
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1745    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4       4
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      2       1
+END OF MODULE INFORMATION.
+
+C51 COMPILATION COMPLETE.  0 WARNING,  0 ERROR

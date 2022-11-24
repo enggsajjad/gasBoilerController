@@ -1,0 +1,2089 @@
+Thu Mar 28 10:03:15 Log file reset
+Thu Mar 28 10:03:15 Loaded file BACKUP0.MAX
+Thu Mar 28 10:03:39 Saved as file ~undo.max
+Thu Mar 28 10:04:34 Saved as file BACKUP1.MAX
+Thu Mar 28 10:04:34 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-21.MAX
+Thu Mar 28 10:04:35 UserDiv from Layout.INI for AutoECO: 60
+Thu Mar 28 10:04:35 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-21.MAX
+Thu Mar 28 10:04:35 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Thu Mar 28 10:04:35 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Thu Mar 28 10:04:35 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Thu Mar 28 10:04:35 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Thu Mar 28 10:04:35 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Thu Mar 28 10:04:35 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Mar 28 10:04:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Mar 28 10:04:38 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-22.MAX
+Thu Mar 28 10:04:38 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-22.MAX
+Thu Mar 28 10:05:04 Saved as file ~undo.max
+Thu Mar 28 10:05:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:09 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Thu Mar 28 10:05:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:21 Saved as file ~undo.max
+Thu Mar 28 10:05:35 Saved as file ~undo.max
+Thu Mar 28 10:05:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:51 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Thu Mar 28 10:05:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:05:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 28 10:06:04 Saved as file ~undo.max
+Thu Mar 28 10:06:07 Saved as file ~undo.max
+Thu Mar 28 10:08:19 Saved as file BACKUP1.MAX
+Thu Mar 28 10:08:19 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-22.MAX
+Thu Mar 28 10:08:20 UserDiv from Layout.INI for AutoECO: 60
+Thu Mar 28 10:08:20 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-22.MAX
+Thu Mar 28 10:08:20 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Thu Mar 28 10:08:20 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Thu Mar 28 10:08:20 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Thu Mar 28 10:08:20 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Thu Mar 28 10:08:20 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Thu Mar 28 10:08:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Mar 28 10:08:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Mar 28 10:08:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Mar 28 10:08:22 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:08:22 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:08:46 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:08:46 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:08:46 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:14:52 Saved as file BACKUP1.MAX
+Thu Mar 28 10:25:22 Saved as file BACKUP1.MAX
+Thu Mar 28 10:27:05 Saved as file ~undo.max
+Thu Mar 28 10:28:09 Saved as file ~undo.max
+Thu Mar 28 10:28:11 Saved as file ~undo2.max
+Thu Mar 28 10:28:11 Loaded file ~undo.max
+Thu Mar 28 10:28:25 Saved as file ~undo.max
+Thu Mar 28 10:28:27 Saved as file ~undo.max
+Thu Mar 28 10:28:34 Saved as file ~undo.max
+Thu Mar 28 10:28:35 Saved as file ~undo.max
+Thu Mar 28 10:29:59 Saved as file ~undo.max
+Thu Mar 28 10:30:59 Saved as file ~undo.max
+Thu Mar 28 10:31:01 Saved as file ~undo.max
+Thu Mar 28 10:31:15 Saved as file ~undo.max
+Thu Mar 28 10:31:17 Saved as file ~undo.max
+Thu Mar 28 10:31:26 Saved as file ~undo.max
+Thu Mar 28 10:31:28 Saved as file ~undo.max
+Thu Mar 28 10:31:30 Saved as file ~undo.max
+Thu Mar 28 10:31:46 Saved as file ~undo.max
+Thu Mar 28 10:31:51 Saved as file ~undo.max
+Thu Mar 28 10:31:58 Saved as file ~undo.max
+Thu Mar 28 10:32:12 Saved as file ~undo.max
+Thu Mar 28 10:33:53 Saved as file ~undo.max
+Thu Mar 28 10:33:54 Saved as file ~undo.max
+Thu Mar 28 10:34:13 Saved as file ~undo.max
+Thu Mar 28 10:34:15 Saved as file ~undo.max
+Thu Mar 28 10:34:17 Saved as file ~undo.max
+Thu Mar 28 10:34:18 Saved as file ~undo.max
+Thu Mar 28 10:34:18 Saved as file ~undo.max
+Thu Mar 28 10:34:35 Saved as file ~undo.max
+Thu Mar 28 10:34:40 Saved as file ~undo.max
+Thu Mar 28 10:34:42 Saved as file ~undo.max
+Thu Mar 28 10:34:51 Saved as file ~undo.max
+Thu Mar 28 10:34:52 Saved as file ~undo.max
+Thu Mar 28 10:35:02 Saved as file ~undo.max
+Thu Mar 28 10:35:16 Saved as file ~undo.max
+Thu Mar 28 10:35:20 Saved as file ~undo.max
+Thu Mar 28 10:35:21 Saved as file ~undo.max
+Thu Mar 28 10:35:37 Saved as file ~undo.max
+Thu Mar 28 10:35:38 Saved as file ~undo.max
+Thu Mar 28 10:35:48 Saved as file ~undo.max
+Thu Mar 28 10:35:49 Saved as file ~undo.max
+Thu Mar 28 10:35:49 Saved as file ~undo.max
+Thu Mar 28 10:35:50 Saved as file ~undo.max
+Thu Mar 28 10:35:52 Saved as file BACKUP1.MAX
+Thu Mar 28 10:46:22 Saved as file BACKUP1.MAX
+Thu Mar 28 10:51:08 Saved as file ~undo.max
+Thu Mar 28 10:51:39 Saved as file ~undo.max
+Thu Mar 28 10:51:41 Saved as file ~undo.max
+Thu Mar 28 10:51:49 Saved as file ~undo.max
+Thu Mar 28 10:51:57 Saved as file ~undo.max
+Thu Mar 28 10:52:03 Saved as file ~undo.max
+Thu Mar 28 10:52:09 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:53:08 Saved as file ~undo.max
+Thu Mar 28 10:53:29 Saved as file ~undo.max
+Thu Mar 28 10:53:46 Saved as file ~undo.max
+Thu Mar 28 10:57:22 Saved as file BACKUP1.MAX
+Thu Mar 28 10:57:54 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 10:59:08 Saved as file ~undo.max
+Thu Mar 28 10:59:19 Saved as file ~undo.max
+Thu Mar 28 10:59:26 Saved as file ~undo.max
+Thu Mar 28 10:59:51 Saved as file ~undo.max
+Thu Mar 28 11:00:16 Saved as file ~undo.max
+Thu Mar 28 11:08:22 Saved as file BACKUP1.MAX
+Thu Mar 28 11:13:17 Saved as file ~undo.max
+Thu Mar 28 11:13:38 Saved as file ~undo.max
+Thu Mar 28 11:14:04 Saved as file ~undo.max
+Thu Mar 28 11:14:29 Saved as file ~undo.max
+Thu Mar 28 11:15:10 Saved as file ~undo.max
+Thu Mar 28 11:15:51 Saved as file ~undo.max
+Thu Mar 28 11:16:18 Saved as file ~undo.max
+Thu Mar 28 11:16:26 Saved as file ~undo.max
+Thu Mar 28 11:16:59 Saved as file ~undo.max
+Thu Mar 28 11:17:05 Saved as file ~undo.max
+Thu Mar 28 11:17:30 Saved as file ~undo.max
+Thu Mar 28 11:17:50 Saved as file ~undo.max
+Thu Mar 28 11:17:59 Saved as file ~undo.max
+Thu Mar 28 11:18:29 Saved as file ~undo.max
+Thu Mar 28 11:18:31 Saved as file ~undo.max
+Thu Mar 28 11:18:51 Saved as file ~undo.max
+Thu Mar 28 11:18:52 Saved as file BACKUP1.MAX
+Thu Mar 28 11:19:18 Saved as file ~undo.max
+Thu Mar 28 11:19:21 Saved as file ~undo.max
+Thu Mar 28 11:19:24 Saved as file ~undo.max
+Thu Mar 28 11:19:26 Saved as file ~undo.max
+Thu Mar 28 11:19:54 Saved as file ~undo.max
+Thu Mar 28 11:19:56 Saved as file ~undo.max
+Thu Mar 28 11:20:06 Saved as file ~undo.max
+Thu Mar 28 11:20:28 Saved as file ~undo.max
+Thu Mar 28 11:21:01 Saved as file ~undo.max
+Thu Mar 28 11:21:02 Saved as file ~undo.max
+Thu Mar 28 11:21:08 Saved as file ~undo.max
+Thu Mar 28 11:22:06 Saved as file ~undo.max
+Thu Mar 28 11:22:15 Saved as file ~undo.max
+Thu Mar 28 11:22:22 Saved as file ~undo.max
+Thu Mar 28 11:22:24 Saved as file ~undo.max
+Thu Mar 28 11:22:35 Saved as file ~undo.max
+Thu Mar 28 11:22:37 Saved as file ~undo.max
+Thu Mar 28 11:22:42 Saved as file ~undo.max
+Thu Mar 28 11:22:43 Saved as file ~undo.max
+Thu Mar 28 11:22:56 Saved as file ~undo.max
+Thu Mar 28 11:22:57 Saved as file ~undo.max
+Thu Mar 28 11:23:09 Saved as file ~undo.max
+Thu Mar 28 11:23:19 Saved as file ~undo.max
+Thu Mar 28 11:23:25 Saved as file ~undo.max
+Thu Mar 28 11:23:35 Saved as file ~undo.max
+Thu Mar 28 11:23:41 Saved as file ~undo.max
+Thu Mar 28 11:24:15 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 11:29:22 Saved as file BACKUP1.MAX
+Thu Mar 28 11:32:50 Saved as file ~undo.max
+Thu Mar 28 11:33:05 Saved as file ~undo.max
+Thu Mar 28 11:34:16 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 11:34:26 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 11:34:27 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 11:39:52 Saved as file BACKUP1.MAX
+Thu Mar 28 11:40:16 Saved as file ~undo.max
+Thu Mar 28 11:40:17 Saved as file ~undo.max
+Thu Mar 28 11:40:44 Saved as file ~undo.max
+Thu Mar 28 11:41:06 Saved as file ~undo.max
+Thu Mar 28 11:41:08 Saved as file ~undo.max
+Thu Mar 28 11:41:26 Saved as file ~undo.max
+Thu Mar 28 11:41:50 Saved as file ~undo.max
+Thu Mar 28 11:41:51 Saved as file ~undo.max
+Thu Mar 28 11:42:09 Saved as file ~undo.max
+Thu Mar 28 11:43:06 Saved as file ~undo.max
+Thu Mar 28 11:43:15 Saved as file ~undo.max
+Thu Mar 28 11:43:32 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 11:43:58 Saved as file ~undo.max
+Thu Mar 28 11:44:48 Saved as file ~undo.max
+Thu Mar 28 11:44:49 Saved as file ~undo.max
+Thu Mar 28 11:44:50 Saved as file ~undo.max
+Thu Mar 28 11:45:01 Saved as file ~undo.max
+Thu Mar 28 11:45:02 Saved as file ~undo.max
+Thu Mar 28 11:45:36 Saved as file ~undo.max
+Thu Mar 28 11:46:06 Saved as file ~undo.max
+Thu Mar 28 11:46:14 Saved as file ~undo.max
+Thu Mar 28 11:46:44 Saved as file ~undo.max
+Thu Mar 28 11:47:43 Saved as file ~undo.max
+Thu Mar 28 11:47:49 Saved as file ~undo.max
+Thu Mar 28 11:48:58 Saved as file ~undo.max
+Thu Mar 28 11:49:03 Saved as file ~undo.max
+Thu Mar 28 11:49:19 Saved as file ~undo.max
+Thu Mar 28 11:49:31 Saved as file ~undo.max
+Thu Mar 28 11:50:08 Saved as file ~undo.max
+Thu Mar 28 11:50:22 Saved as file BACKUP1.MAX
+Thu Mar 28 11:50:34 Saved as file ~undo.max
+Thu Mar 28 11:50:55 Saved as file ~undo.max
+Thu Mar 28 11:51:01 Saved as file ~undo.max
+Thu Mar 28 11:51:09 Saved as file ~undo.max
+Thu Mar 28 11:51:17 Saved as file ~undo.max
+Thu Mar 28 11:51:24 Saved as file ~undo.max
+Thu Mar 28 11:51:50 Saved as file ~undo.max
+Thu Mar 28 11:51:55 Saved as file ~undo.max
+Thu Mar 28 11:52:19 Saved as file ~undo.max
+Thu Mar 28 11:52:23 Saved as file ~undo.max
+Thu Mar 28 11:52:32 Saved as file ~undo.max
+Thu Mar 28 11:52:43 Saved as file ~undo.max
+Thu Mar 28 11:52:52 Saved as file ~undo.max
+Thu Mar 28 11:53:22 Saved as file ~undo.max
+Thu Mar 28 11:53:28 Saved as file ~undo.max
+Thu Mar 28 11:53:32 Saved as file ~undo.max
+Thu Mar 28 11:53:39 Saved as file ~undo.max
+Thu Mar 28 11:54:09 Saved as file ~undo.max
+Thu Mar 28 11:54:15 Saved as file ~undo.max
+Thu Mar 28 11:54:25 Saved as file ~undo.max
+Thu Mar 28 11:54:29 Saved as file ~undo.max
+Thu Mar 28 11:54:31 Saved as file ~undo.max
+Thu Mar 28 11:55:11 Saved as file ~undo.max
+Thu Mar 28 11:55:48 Saved as file ~undo.max
+Thu Mar 28 11:55:57 Saved as file ~undo.max
+Thu Mar 28 11:55:58 Saved as file ~undo.max
+Thu Mar 28 11:56:02 Saved as file ~undo.max
+Thu Mar 28 11:56:03 Saved as file ~undo.max
+Thu Mar 28 11:56:03 Saved as file ~undo.max
+Thu Mar 28 11:56:04 Saved as file ~undo.max
+Thu Mar 28 11:56:17 Saved as file ~undo.max
+Thu Mar 28 11:56:26 Saved as file ~undo.max
+Thu Mar 28 11:57:05 Saved as file ~undo.max
+Thu Mar 28 11:57:27 Saved as file ~undo.max
+Thu Mar 28 11:57:39 Saved as file ~undo.max
+Thu Mar 28 11:58:16 Saved as file ~undo.max
+Thu Mar 28 11:58:26 Saved as file ~undo.max
+Thu Mar 28 11:59:20 Saved as file ~undo.max
+Thu Mar 28 11:59:35 Saved as file ~undo.max
+Thu Mar 28 11:59:57 Saved as file ~undo.max
+Thu Mar 28 12:00:22 Saved as file BACKUP1.MAX
+Thu Mar 28 12:00:23 Saved as file ~undo.max
+Thu Mar 28 12:00:57 Saved as file ~undo.max
+Thu Mar 28 12:01:08 Saved as file ~undo.max
+Thu Mar 28 12:01:55 Saved as file ~undo.max
+Thu Mar 28 12:01:56 Saved as file ~undo.max
+Thu Mar 28 12:02:01 Saved as file ~undo.max
+Thu Mar 28 12:02:06 Saved as file ~undo.max
+Thu Mar 28 12:02:09 Saved as file ~undo.max
+Thu Mar 28 12:02:26 Saved as file ~undo.max
+Thu Mar 28 12:02:34 Saved as file ~undo.max
+Thu Mar 28 12:02:36 Saved as file ~undo.max
+Thu Mar 28 12:02:36 Saved as file ~undo.max
+Thu Mar 28 12:02:37 Saved as file ~undo.max
+Thu Mar 28 12:02:44 Saved as file ~undo.max
+Thu Mar 28 12:02:46 Saved as file ~undo.max
+Thu Mar 28 12:03:15 Saved as file ~undo.max
+Thu Mar 28 12:03:33 Saved as file ~undo.max
+Thu Mar 28 12:03:40 Saved as file ~undo.max
+Thu Mar 28 12:03:51 Saved as file ~undo.max
+Thu Mar 28 12:04:10 Saved as file ~undo.max
+Thu Mar 28 12:04:46 Saved as file ~undo.max
+Thu Mar 28 12:05:10 Saved as file ~undo.max
+Thu Mar 28 12:05:11 Saved as file ~undo.max
+Thu Mar 28 12:05:58 Saved as file ~undo.max
+Thu Mar 28 12:06:02 Saved as file ~undo.max
+Thu Mar 28 12:06:06 Saved as file ~undo.max
+Thu Mar 28 12:06:14 Saved as file ~undo.max
+Thu Mar 28 12:06:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 12:06:21 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 12:06:21 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 12:06:22 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 12:06:22 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 12:06:32 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 12:10:22 Saved as file BACKUP1.MAX
+Thu Mar 28 12:20:52 Saved as file BACKUP1.MAX
+Thu Mar 28 12:31:22 Saved as file BACKUP1.MAX
+Thu Mar 28 12:41:52 Saved as file BACKUP1.MAX
+Thu Mar 28 12:52:22 Saved as file BACKUP1.MAX
+Thu Mar 28 13:02:52 Saved as file BACKUP1.MAX
+Thu Mar 28 13:13:22 Saved as file BACKUP1.MAX
+Thu Mar 28 13:23:52 Saved as file BACKUP1.MAX
+Thu Mar 28 13:34:22 Saved as file BACKUP1.MAX
+Thu Mar 28 13:44:52 Saved as file BACKUP1.MAX
+Thu Mar 28 13:47:54 Saved as file ~undo.max
+Thu Mar 28 13:48:35 Saved as file ~undo.max
+Thu Mar 28 13:49:03 Saved as file ~undo.max
+Thu Mar 28 13:49:06 Saved as file ~undo.max
+Thu Mar 28 13:49:26 Saved as file ~undo.max
+Thu Mar 28 13:49:30 Saved as file ~undo.max
+Thu Mar 28 13:49:31 Saved as file ~undo.max
+Thu Mar 28 13:49:31 Saved as file ~undo.max
+Thu Mar 28 13:51:10 Saved as file ~undo.max
+Thu Mar 28 13:53:54 Saved as file ~undo.max
+Thu Mar 28 13:53:59 Saved as file ~undo.max
+Thu Mar 28 13:54:15 Saved as file ~undo.max
+Thu Mar 28 13:55:09 Saved as file ~undo.max
+Thu Mar 28 13:55:22 Saved as file BACKUP1.MAX
+Thu Mar 28 13:56:14 Saved as file ~undo.max
+Thu Mar 28 13:56:20 Saved as file ~undo.max
+Thu Mar 28 13:56:24 Saved as file ~undo.max
+Thu Mar 28 13:56:30 Saved as file ~undo.max
+Thu Mar 28 13:57:42 Saved as file ~undo.max
+Thu Mar 28 13:58:50 Saved as file ~undo.max
+Thu Mar 28 13:58:52 Saved as file ~undo.max
+Thu Mar 28 13:59:05 Saved as file ~undo.max
+Thu Mar 28 13:59:20 Saved as file ~undo.max
+Thu Mar 28 13:59:25 Saved as file ~undo.max
+Thu Mar 28 14:00:38 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 14:01:47 Saved as file ~undo.max
+Thu Mar 28 14:02:21 Saved as file ~undo.max
+Thu Mar 28 14:02:32 Saved as file ~undo.max
+Thu Mar 28 14:06:22 Saved as file BACKUP1.MAX
+Thu Mar 28 14:09:24 Saved as file BACKUP1.MAX
+Thu Mar 28 14:09:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 14:09:25 UserDiv from Layout.INI for AutoECO: 60
+Thu Mar 28 14:09:25 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-23.MAX
+Thu Mar 28 14:09:25 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Thu Mar 28 14:09:25 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Thu Mar 28 14:09:25 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Thu Mar 28 14:09:25 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Thu Mar 28 14:09:25 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Thu Mar 28 14:09:25 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Mar 28 14:09:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Mar 28 14:09:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Mar 28 14:09:27 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:09:27 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:09:31 Saved as file ~undo.max
+Thu Mar 28 14:09:51 Saved as file ~undo.max
+Thu Mar 28 14:10:06 Saved as file ~undo.max
+Thu Mar 28 14:10:26 Saved as file ~undo.max
+Thu Mar 28 14:10:33 Saved as file ~undo.max
+Thu Mar 28 14:11:15 Saved as file ~undo.max
+Thu Mar 28 14:11:48 Saved as file ~undo.max
+Thu Mar 28 14:13:16 Saved as file ~undo.max
+Thu Mar 28 14:13:58 Saved as file ~undo.max
+Thu Mar 28 14:14:57 Saved as file ~undo.max
+Thu Mar 28 14:15:05 Saved as file ~undo.max
+Thu Mar 28 14:15:06 Saved as file ~undo.max
+Thu Mar 28 14:15:42 Saved as file ~undo.max
+Thu Mar 28 14:16:24 Saved as file ~undo.max
+Thu Mar 28 14:16:49 Saved as file ~undo.max
+Thu Mar 28 14:17:09 Saved as file ~undo.max
+Thu Mar 28 14:17:13 Saved as file ~undo.max
+Thu Mar 28 14:17:22 Saved as file ~undo.max
+Thu Mar 28 14:17:41 Saved as file ~undo.max
+Thu Mar 28 14:17:52 Saved as file BACKUP1.MAX
+Thu Mar 28 14:18:00 Saved as file ~undo.max
+Thu Mar 28 14:18:17 Saved as file ~undo.max
+Thu Mar 28 14:19:08 Saved as file ~undo.max
+Thu Mar 28 14:19:25 Saved as file ~undo.max
+Thu Mar 28 14:19:40 Saved as file ~undo.max
+Thu Mar 28 14:19:48 Saved as file ~undo.max
+Thu Mar 28 14:19:58 Saved as file ~undo.max
+Thu Mar 28 14:20:07 Saved as file ~undo.max
+Thu Mar 28 14:20:30 Saved as file ~undo.max
+Thu Mar 28 14:20:32 Saved as file ~undo.max
+Thu Mar 28 14:20:46 Saved as file ~undo.max
+Thu Mar 28 14:21:34 Saved as file ~undo.max
+Thu Mar 28 14:22:16 Saved as file ~undo.max
+Thu Mar 28 14:22:22 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:22:23 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:22:23 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:22:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:22:46 Saved as file ~undo.max
+Thu Mar 28 14:23:23 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:23:24 Saved as file ~undo.max
+Thu Mar 28 14:23:29 Saved as file ~undo.max
+Thu Mar 28 14:24:15 Saved as file ~undo.max
+Thu Mar 28 14:24:16 Saved as file ~undo.max
+Thu Mar 28 14:24:16 Saved as file ~undo.max
+Thu Mar 28 14:24:17 Saved as file ~undo.max
+Thu Mar 28 14:25:46 Saved as file BACKUP1.MAX
+Thu Mar 28 14:25:46 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:25:48 UserDiv from Layout.INI for AutoECO: 60
+Thu Mar 28 14:25:48 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-24.MAX
+Thu Mar 28 14:25:48 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Thu Mar 28 14:25:48 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Thu Mar 28 14:25:48 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Thu Mar 28 14:25:48 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Thu Mar 28 14:25:48 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Thu Mar 28 14:25:48 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Mar 28 14:25:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Mar 28 14:25:50 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:25:50 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:25:52 Saved as file ~undo.max
+Thu Mar 28 14:25:53 Saved as file ~undo.max
+Thu Mar 28 14:25:53 Saved as file ~undo.max
+Thu Mar 28 14:26:05 Saved as file ~undo.max
+Thu Mar 28 14:26:06 Saved as file ~undo.max
+Thu Mar 28 14:26:22 Saved as file ~undo.max
+Thu Mar 28 14:28:22 Saved as file BACKUP1.MAX
+Thu Mar 28 14:38:52 Saved as file BACKUP1.MAX
+Thu Mar 28 14:49:22 Saved as file BACKUP1.MAX
+Thu Mar 28 14:54:43 Saved as file ~undo.max
+Thu Mar 28 14:54:56 Saved as file ~undo.max
+Thu Mar 28 14:55:22 Saved as file ~undo.max
+Thu Mar 28 14:55:39 Saved as file ~undo.max
+Thu Mar 28 14:55:40 Saved as file ~undo.max
+Thu Mar 28 14:56:15 Saved as file ~undo.max
+Thu Mar 28 14:56:19 Saved as file ~undo.max
+Thu Mar 28 14:56:22 Saved as file ~undo.max
+Thu Mar 28 14:56:24 Saved as file ~undo.max
+Thu Mar 28 14:56:26 Saved as file ~undo.max
+Thu Mar 28 14:56:29 Saved as file ~undo.max
+Thu Mar 28 14:56:30 Saved as file ~undo.max
+Thu Mar 28 14:56:35 Saved as file ~undo.max
+Thu Mar 28 14:56:36 Saved as file ~undo.max
+Thu Mar 28 14:56:40 Saved as file ~undo.max
+Thu Mar 28 14:56:41 Saved as file ~undo.max
+Thu Mar 28 14:56:47 Saved as file ~undo.max
+Thu Mar 28 14:56:50 Saved as file ~undo.max
+Thu Mar 28 14:56:52 Saved as file ~undo.max
+Thu Mar 28 14:56:54 Saved as file ~undo.max
+Thu Mar 28 14:57:02 Saved as file ~undo.max
+Thu Mar 28 14:57:04 Saved as file ~undo.max
+Thu Mar 28 14:57:06 Saved as file ~undo.max
+Thu Mar 28 14:57:09 Saved as file ~undo.max
+Thu Mar 28 14:57:11 Saved as file ~undo.max
+Thu Mar 28 14:57:13 Saved as file ~undo.max
+Thu Mar 28 14:57:13 Saved as file ~undo.max
+Thu Mar 28 14:57:17 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:57:47 Saved as file ~undo.max
+Thu Mar 28 14:57:57 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:57:57 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:58:01 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:58:02 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 14:59:52 Saved as file BACKUP1.MAX
+Thu Mar 28 15:00:02 Saved as file ~undo.max
+Thu Mar 28 15:00:03 Saved as file ~undo.max
+Thu Mar 28 15:00:35 Saved as file ~undo.max
+Thu Mar 28 15:00:59 Saved as file ~undo.max
+Thu Mar 28 15:01:40 Saved as file ~undo.max
+Thu Mar 28 15:01:48 Saved as file ~undo.max
+Thu Mar 28 15:01:52 Saved as file ~undo.max
+Thu Mar 28 15:01:58 Saved as file ~undo.max
+Thu Mar 28 15:02:05 Saved as file ~undo.max
+Thu Mar 28 15:02:21 Saved as file ~undo.max
+Thu Mar 28 15:02:25 Saved as file ~undo.max
+Thu Mar 28 15:02:25 Saved as file ~undo.max
+Thu Mar 28 15:02:32 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 15:02:40 Saved as file ~undo.max
+Thu Mar 28 15:02:41 Saved as file ~undo.max
+Thu Mar 28 15:02:42 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 15:02:43 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 15:06:38 Saved as file ~undo.max
+Thu Mar 28 15:08:32 Saved as file ~undo.max
+Thu Mar 28 15:08:47 Saved as file ~undo.max
+Thu Mar 28 15:08:52 Saved as file ~undo.max
+Thu Mar 28 15:09:36 Saved as file ~undo.max
+Thu Mar 28 15:10:22 Saved as file BACKUP1.MAX
+Thu Mar 28 15:10:59 Saved as file ~undo.max
+Thu Mar 28 15:12:17 Saved as file ~undo.max
+Thu Mar 28 15:12:23 Saved as file ~undo.max
+Thu Mar 28 15:13:13 Saved as file ~undo.max
+Thu Mar 28 15:13:42 Saved as file ~undo.max
+Thu Mar 28 15:13:54 Saved as file ~undo.max
+Thu Mar 28 15:13:55 Saved as file ~undo.max
+Thu Mar 28 15:14:42 Saved as file ~undo.max
+Thu Mar 28 15:15:00 Saved as file ~undo.max
+Thu Mar 28 15:16:26 Saved as file ~undo.max
+Thu Mar 28 15:16:52 Saved as file ~undo.max
+Thu Mar 28 15:18:32 Saved as file ~undo.max
+Thu Mar 28 15:18:44 Saved as file ~undo.max
+Thu Mar 28 15:19:12 Saved as file ~undo.max
+Thu Mar 28 15:19:13 Saved as file ~undo.max
+Thu Mar 28 15:19:37 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Thu Mar 28 15:20:52 Saved as file BACKUP1.MAX
+Fri Mar 29 08:07:00 Saved as file ~undo.max
+Fri Mar 29 08:07:20 Saved as file ~undo.max
+Fri Mar 29 08:08:39 Saved as file ~undo.max
+Fri Mar 29 08:08:55 Saved as file ~undo.max
+Fri Mar 29 08:09:10 Saved as file ~undo.max
+Fri Mar 29 08:09:50 Saved as file ~undo.max
+Fri Mar 29 08:10:12 Saved as file ~undo.max
+Fri Mar 29 08:10:51 Saved as file ~undo.max
+Fri Mar 29 08:11:24 Saved as file ~undo.max
+Fri Mar 29 08:11:30 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:12:08 Saved as file ~undo.max
+Fri Mar 29 08:12:41 Saved as file ~undo.max
+Fri Mar 29 08:12:53 Saved as file ~undo.max
+Fri Mar 29 08:13:21 Saved as file ~undo.max
+Fri Mar 29 08:13:29 Saved as file ~undo.max
+Fri Mar 29 08:13:36 Saved as file ~undo.max
+Fri Mar 29 08:14:12 Saved as file ~undo.max
+Fri Mar 29 08:15:02 Saved as file ~undo.max
+Fri Mar 29 08:15:07 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:15:08 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:15:08 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:15:11 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:15:31 Saved as file ~undo.max
+Fri Mar 29 08:15:52 Saved as file BACKUP1.MAX
+Fri Mar 29 08:16:16 Saved as file ~undo.max
+Fri Mar 29 08:16:27 Saved as file ~undo.max
+Fri Mar 29 08:16:29 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:16:46 Saved as file ~undo.max
+Fri Mar 29 08:17:13 Saved as file ~undo.max
+Fri Mar 29 08:17:29 Saved as file ~undo.max
+Fri Mar 29 08:18:22 Saved as file ~undo.max
+Fri Mar 29 08:18:37 Saved as file ~undo.max
+Fri Mar 29 08:18:50 Saved as file ~undo.max
+Fri Mar 29 08:19:47 Saved as file ~undo.max
+Fri Mar 29 08:21:17 Saved as file ~undo.max
+Fri Mar 29 08:21:44 Saved as file ~undo.max
+Fri Mar 29 08:22:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:25:02 Saved as file BACKUP1.MAX
+Fri Mar 29 08:25:02 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:25:04 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 29 08:25:04 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-25.MAX
+Fri Mar 29 08:25:04 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Fri Mar 29 08:25:04 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Fri Mar 29 08:25:04 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Fri Mar 29 08:25:04 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Fri Mar 29 08:25:04 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Fri Mar 29 08:25:04 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 29 08:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 29 08:25:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 29 08:25:06 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-26.MAX
+Fri Mar 29 08:25:06 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-26.MAX
+Fri Mar 29 08:25:09 Saved as file ~undo.max
+Fri Mar 29 08:25:10 Saved as file ~undo.max
+Fri Mar 29 08:25:10 Saved as file ~undo.max
+Fri Mar 29 08:26:02 Saved as file BACKUP1.MAX
+Fri Mar 29 08:26:02 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-26.MAX
+Fri Mar 29 08:26:03 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 29 08:26:03 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-26.MAX
+Fri Mar 29 08:26:03 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Fri Mar 29 08:26:03 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Fri Mar 29 08:26:03 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Fri Mar 29 08:26:03 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Fri Mar 29 08:26:03 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Fri Mar 29 08:26:03 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Fri Mar 29 08:26:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 29 08:26:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 29 08:26:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 29 08:26:05 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-27.MAX
+Fri Mar 29 08:26:05 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-27.MAX
+Fri Mar 29 08:26:09 Saved as file ~undo.max
+Fri Mar 29 08:26:36 Saved as file ~undo.max
+Fri Mar 29 08:26:52 Saved as file BACKUP1.MAX
+Fri Mar 29 08:37:22 Saved as file BACKUP1.MAX
+Fri Mar 29 08:44:48 Saved as file BACKUP1.MAX
+Fri Mar 29 08:44:48 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-27.MAX
+Fri Mar 29 08:44:49 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 29 08:44:49 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-27.MAX
+Fri Mar 29 08:44:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Fri Mar 29 08:44:49 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Fri Mar 29 08:44:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Fri Mar 29 08:44:49 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Fri Mar 29 08:44:49 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Fri Mar 29 08:44:49 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 29 08:44:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 29 08:44:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-28.MAX
+Fri Mar 29 08:44:51 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-28.MAX
+Fri Mar 29 08:44:55 Saved as file ~undo.max
+Fri Mar 29 08:47:14 Saved as file ~undo.max
+Fri Mar 29 08:47:52 Saved as file BACKUP1.MAX
+Fri Mar 29 08:49:48 Saved as file BACKUP1.MAX
+Fri Mar 29 08:49:48 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-28.MAX
+Fri Mar 29 08:49:49 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 29 08:49:49 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-28.MAX
+Fri Mar 29 08:49:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Fri Mar 29 08:49:49 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Fri Mar 29 08:49:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Fri Mar 29 08:49:49 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Fri Mar 29 08:49:49 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Fri Mar 29 08:49:49 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 29 08:49:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 29 08:49:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 29 08:49:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-29.MAX
+Fri Mar 29 08:49:51 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-29.MAX
+Fri Mar 29 08:49:56 Saved as file ~undo.max
+Fri Mar 29 08:50:31 Saved as file ~undo.max
+Fri Mar 29 08:53:10 Saved as file BACKUP1.MAX
+Fri Mar 29 08:53:10 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-29.MAX
+Fri Mar 29 08:53:12 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 29 08:53:12 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-29.MAX
+Fri Mar 29 08:53:12 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Fri Mar 29 08:53:12 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Fri Mar 29 08:53:12 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Fri Mar 29 08:53:12 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Fri Mar 29 08:53:12 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Fri Mar 29 08:53:12 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 29 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 29 08:53:15 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-30.MAX
+Fri Mar 29 08:53:15 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-30.MAX
+Fri Mar 29 08:53:19 Saved as file ~undo.max
+Fri Mar 29 08:54:20 Saved as file BACKUP1.MAX
+Fri Mar 29 08:54:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-30.MAX
+Fri Mar 29 08:54:21 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 29 08:54:21 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-30.MAX
+Fri Mar 29 08:54:21 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Fri Mar 29 08:54:21 Loaded file D:\LIBS\MUSHTAQ LIB\ALL THESE LIBS ARE IN MUSHTAQN\MUSHTAQ1_1LIB.LLB
+Fri Mar 29 08:54:21 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Fri Mar 29 08:54:21 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Fri Mar 29 08:54:21 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Fri Mar 29 08:54:21 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 29 08:54:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 29 08:54:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 29 08:54:23 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 08:54:23 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 08:54:26 Saved as file ~undo.max
+Fri Mar 29 08:54:36 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 08:55:22 Saved as file ~undo.max
+Fri Mar 29 08:55:34 Saved as file ~undo.max
+Fri Mar 29 08:56:16 Saved as file ~undo.max
+Fri Mar 29 08:56:32 Saved as file ~undo.max
+Fri Mar 29 08:56:37 Saved as file ~undo.max
+Fri Mar 29 08:56:57 Saved as file ~undo.max
+Fri Mar 29 08:57:43 Saved as file ~undo.max
+Fri Mar 29 08:57:53 Saved as file ~undo.max
+Fri Mar 29 08:58:03 Saved as file ~undo.max
+Fri Mar 29 08:58:09 Saved as file ~undo.max
+Fri Mar 29 08:58:24 Saved as file ~undo.max
+Fri Mar 29 08:58:44 Saved as file ~undo.max
+Fri Mar 29 08:58:52 Saved as file BACKUP1.MAX
+Fri Mar 29 08:59:03 Saved as file ~undo.max
+Fri Mar 29 08:59:16 Saved as file ~undo.max
+Fri Mar 29 08:59:32 Saved as file ~undo.max
+Fri Mar 29 08:59:36 Saved as file ~undo.max
+Fri Mar 29 09:00:15 Saved as file ~undo.max
+Fri Mar 29 09:00:25 Saved as file ~undo.max
+Fri Mar 29 09:00:29 Saved as file ~undo.max
+Fri Mar 29 09:00:37 Saved as file ~undo.max
+Fri Mar 29 09:00:53 Saved as file ~undo.max
+Fri Mar 29 09:01:11 Saved as file ~undo.max
+Fri Mar 29 09:01:21 Saved as file ~undo.max
+Fri Mar 29 09:01:32 Saved as file ~undo.max
+Fri Mar 29 09:01:33 Saved as file ~undo.max
+Fri Mar 29 09:01:45 Saved as file ~undo.max
+Fri Mar 29 09:01:47 Saved as file ~undo.max
+Fri Mar 29 09:02:39 Saved as file ~undo.max
+Fri Mar 29 09:02:43 Saved as file ~undo.max
+Fri Mar 29 09:03:01 Saved as file ~undo.max
+Fri Mar 29 09:03:22 Saved as file ~undo.max
+Fri Mar 29 09:03:23 Saved as file ~undo.max
+Fri Mar 29 09:03:31 Saved as file ~undo.max
+Fri Mar 29 09:03:39 Saved as file ~undo.max
+Fri Mar 29 09:03:49 Saved as file ~undo.max
+Fri Mar 29 09:03:53 Saved as file ~undo.max
+Fri Mar 29 09:03:58 Saved as file ~undo.max
+Fri Mar 29 09:04:13 Saved as file ~undo.max
+Fri Mar 29 09:04:31 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 09:04:56 Saved as file ~undo.max
+Fri Mar 29 09:05:00 Saved as file ~undo.max
+Fri Mar 29 09:05:23 Saved as file ~undo.max
+Fri Mar 29 09:05:25 Saved as file ~undo.max
+Fri Mar 29 09:05:32 Saved as file ~undo.max
+Fri Mar 29 09:05:41 Saved as file ~undo.max
+Fri Mar 29 09:05:51 Saved as file ~undo.max
+Fri Mar 29 09:06:00 Saved as file ~undo.max
+Fri Mar 29 09:06:17 Saved as file ~undo.max
+Fri Mar 29 09:06:18 Saved as file ~undo.max
+Fri Mar 29 09:06:27 Saved as file ~undo.max
+Fri Mar 29 09:06:38 Saved as file ~undo.max
+Fri Mar 29 09:06:55 Saved as file ~undo.max
+Fri Mar 29 09:07:00 Saved as file ~undo.max
+Fri Mar 29 09:07:09 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 09:07:31 Saved as file ~undo.max
+Fri Mar 29 09:07:35 Saved as file ~undo.max
+Fri Mar 29 09:08:12 Saved as file ~undo.max
+Fri Mar 29 09:08:14 Saved as file ~undo.max
+Fri Mar 29 09:08:20 Saved as file ~undo.max
+Fri Mar 29 09:08:50 Saved as file ~undo.max
+Fri Mar 29 09:08:52 Saved as file ~undo.max
+Fri Mar 29 09:09:08 Saved as file ~undo.max
+Fri Mar 29 09:09:10 Saved as file ~undo.max
+Fri Mar 29 09:09:22 Saved as file BACKUP1.MAX
+Fri Mar 29 09:09:25 Saved as file ~undo.max
+Fri Mar 29 09:09:26 Saved as file ~undo.max
+Fri Mar 29 09:09:47 Saved as file ~undo.max
+Fri Mar 29 09:09:49 Saved as file ~undo.max
+Fri Mar 29 09:10:20 Saved as file ~undo.max
+Fri Mar 29 09:10:32 Saved as file ~undo.max
+Fri Mar 29 09:11:09 Saved as file ~undo.max
+Fri Mar 29 09:11:10 Saved as file ~undo.max
+Fri Mar 29 09:11:36 Saved as file ~undo.max
+Fri Mar 29 09:12:47 Saved as file ~undo.max
+Fri Mar 29 09:12:54 Saved as file ~undo.max
+Fri Mar 29 09:12:59 Saved as file ~undo.max
+Fri Mar 29 09:13:40 Saved as file ~undo.max
+Fri Mar 29 09:13:56 Saved as file ~undo.max
+Fri Mar 29 09:14:54 Saved as file ~undo.max
+Fri Mar 29 09:15:15 Saved as file ~undo.max
+Fri Mar 29 09:15:26 Saved as file ~undo.max
+Fri Mar 29 09:15:33 Saved as file ~undo.max
+Fri Mar 29 09:15:40 Saved as file ~undo.max
+Fri Mar 29 09:16:08 Saved as file ~undo.max
+Fri Mar 29 09:16:17 Saved as file ~undo.max
+Fri Mar 29 09:16:21 Saved as file ~undo.max
+Fri Mar 29 09:16:49 Saved as file ~undo.max
+Fri Mar 29 09:17:00 Saved as file ~undo.max
+Fri Mar 29 09:17:46 Saved as file ~undo.max
+Fri Mar 29 09:17:55 Saved as file ~undo.max
+Fri Mar 29 09:18:09 Saved as file ~undo.max
+Fri Mar 29 09:18:16 Saved as file ~undo.max
+Fri Mar 29 09:18:24 Saved as file ~undo.max
+Fri Mar 29 09:19:04 Saved as file ~undo.max
+Fri Mar 29 09:19:07 Saved as file ~undo.max
+Fri Mar 29 09:19:28 Saved as file ~undo.max
+Fri Mar 29 09:19:49 Saved as file ~undo.max
+Fri Mar 29 09:20:16 Saved as file ~undo.max
+Fri Mar 29 09:20:31 Saved as file ~undo.max
+Fri Mar 29 09:20:52 Saved as file BACKUP1.MAX
+Fri Mar 29 09:21:51 Saved as file ~undo.max
+Fri Mar 29 09:21:56 Saved as file ~undo.max
+Fri Mar 29 09:22:06 Saved as file ~undo.max
+Fri Mar 29 09:22:06 Saved as file ~undo.max
+Fri Mar 29 09:23:00 Saved as file ~undo.max
+Fri Mar 29 09:23:26 Saved as file ~undo.max
+Fri Mar 29 09:23:48 Saved as file ~undo.max
+Fri Mar 29 09:24:08 Saved as file ~undo.max
+Fri Mar 29 09:24:16 Saved as file ~undo.max
+Fri Mar 29 09:24:59 Saved as file ~undo.max
+Fri Mar 29 09:25:21 Saved as file ~undo.max
+Fri Mar 29 09:26:09 Saved as file ~undo.max
+Fri Mar 29 09:26:37 Saved as file ~undo.max
+Fri Mar 29 09:26:50 Saved as file ~undo.max
+Fri Mar 29 09:27:09 Saved as file ~undo.max
+Fri Mar 29 09:27:27 Saved as file ~undo.max
+Fri Mar 29 09:28:43 Saved as file ~undo.max
+Fri Mar 29 09:28:50 Saved as file ~undo.max
+Fri Mar 29 09:29:01 Saved as file ~undo.max
+Fri Mar 29 09:29:25 Saved as file ~undo.max
+Fri Mar 29 09:29:29 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 09:30:02 Saved as file ~undo.max
+Fri Mar 29 09:30:22 Saved as file ~undo.max
+Fri Mar 29 09:32:22 Saved as file BACKUP1.MAX
+Fri Mar 29 09:32:47 Saved as file ~undo.max
+Fri Mar 29 09:35:28 Saved as file ~undo.max
+Fri Mar 29 09:35:44 Saved as file ~undo.max
+Fri Mar 29 09:35:53 Saved as file ~undo.max
+Fri Mar 29 09:36:34 Saved as file ~undo.max
+Fri Mar 29 09:37:27 Saved as file ~undo.max
+Fri Mar 29 09:37:29 Saved as file ~undo.max
+Fri Mar 29 09:39:14 Saved as file ~undo.max
+Fri Mar 29 09:39:17 Saved as file ~undo.max
+Fri Mar 29 09:39:39 Saved as file ~undo.max
+Fri Mar 29 09:41:30 Saved as file ~undo.max
+Fri Mar 29 09:42:38 Saved as file ~undo.max
+Fri Mar 29 09:43:33 Saved as file ~undo.max
+Fri Mar 29 09:44:01 Saved as file ~undo.max
+Fri Mar 29 09:46:23 Saved as file ~undo.max
+Fri Mar 29 09:46:47 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 09:46:48 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Fri Mar 29 09:47:22 Saved as file BACKUP1.MAX
+Fri Mar 29 09:57:52 Saved as file BACKUP1.MAX
+Fri Mar 29 10:08:22 Saved as file BACKUP1.MAX
+Mon Apr 01 10:31:32 Saved as file ~undo.max
+Mon Apr 01 10:32:30 Saved as file ~undo.max
+Mon Apr 01 10:33:45 Saved as file ~undo.max
+Mon Apr 01 10:35:11 Saved as file ~undo.max
+Mon Apr 01 10:38:09 Saved as file ~undo.max
+Mon Apr 01 10:41:54 Saved as file BACKUP1.MAX
+Mon Apr 01 10:46:17 Saved as file ~undo.max
+Mon Apr 01 10:47:53 Saved as file ~undo.max
+Mon Apr 01 10:48:15 Saved as file ~undo.max
+Mon Apr 01 10:48:44 Saved as file ~undo.max
+Mon Apr 01 10:49:56 Saved as file ~undo.max
+Mon Apr 01 10:50:43 Saved as file ~undo.max
+Mon Apr 01 10:51:38 Saved as file ~undo.max
+Mon Apr 01 10:52:04 Saved as file ~undo.max
+Mon Apr 01 10:52:19 Saved as file ~undo.max
+Mon Apr 01 10:52:24 Saved as file BACKUP1.MAX
+Mon Apr 01 10:52:30 Saved as file ~undo.max
+Mon Apr 01 10:53:01 Saved as file ~undo.max
+Mon Apr 01 10:53:21 Saved as file ~undo.max
+Mon Apr 01 10:54:55 Saved as file ~undo.max
+Mon Apr 01 10:55:08 Saved as file ~undo.max
+Mon Apr 01 10:55:17 Saved as file ~undo.max
+Mon Apr 01 10:55:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:00:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:03:24 Saved as file BACKUP1.MAX
+Mon Apr 01 11:07:02 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:09:24 Saved as file ~undo.max
+Mon Apr 01 11:10:54 Saved as file ~undo.max
+Mon Apr 01 11:11:07 Saved as file ~undo.max
+Mon Apr 01 11:12:13 Saved as file ~undo.max
+Mon Apr 01 11:13:54 Saved as file BACKUP1.MAX
+Mon Apr 01 11:23:53 Saved as file ~undo.max
+Mon Apr 01 11:24:02 Saved as file ~undo.max
+Mon Apr 01 11:24:05 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:24:06 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:24:50 Saved as file ~undo.max
+Mon Apr 01 11:26:07 Saved as file ~undo.max
+Mon Apr 01 11:26:21 Saved as file ~undo.max
+Mon Apr 01 11:26:28 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:02 Saved as file ~undo.max
+Mon Apr 01 11:27:10 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:10 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:32 Saved as file ~undo.max
+Mon Apr 01 11:27:47 Saved as file ~undo.max
+Mon Apr 01 11:27:50 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:50 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:27:52 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:28:16 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:29:40 Saved as file ~undo.max
+Mon Apr 01 11:31:52 Saved as file ~undo.max
+Mon Apr 01 11:32:33 Saved as file ~undo.max
+Mon Apr 01 11:33:09 Saved as file ~undo.max
+Mon Apr 01 11:34:20 Saved as file BACKUP1.MAX
+Mon Apr 01 11:38:37 Saved as file ~undo.max
+Mon Apr 01 11:38:39 Saved as file ~undo.max
+Mon Apr 01 11:38:40 Saved as file ~undo.max
+Mon Apr 01 11:38:40 Saved as file ~undo.max
+Mon Apr 01 11:38:41 Saved as file ~undo.max
+Mon Apr 01 11:38:41 Saved as file ~undo.max
+Mon Apr 01 11:38:42 Saved as file ~undo.max
+Mon Apr 01 11:38:42 Saved as file ~undo.max
+Mon Apr 01 11:38:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:41:38 Saved as file ~undo.max
+Mon Apr 01 11:44:29 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 11:44:50 Saved as file BACKUP1.MAX
+Mon Apr 01 11:53:46 Saved as file ~undo.max
+Mon Apr 01 11:55:20 Saved as file BACKUP1.MAX
+Mon Apr 01 11:55:22 Saved as file ~undo.max
+Mon Apr 01 11:55:33 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 12:02:41 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 12:05:50 Saved as file BACKUP1.MAX
+Mon Apr 01 12:16:20 Saved as file BACKUP1.MAX
+Mon Apr 01 12:26:50 Saved as file BACKUP1.MAX
+Mon Apr 01 12:37:20 Saved as file BACKUP1.MAX
+Mon Apr 01 12:47:50 Saved as file BACKUP1.MAX
+Mon Apr 01 12:58:20 Saved as file BACKUP1.MAX
+Mon Apr 01 13:08:50 Saved as file BACKUP1.MAX
+Mon Apr 01 13:19:20 Saved as file BACKUP1.MAX
+Mon Apr 01 13:29:50 Saved as file BACKUP1.MAX
+Mon Apr 01 13:40:20 Saved as file BACKUP1.MAX
+Mon Apr 01 13:45:34 Saved as file ~undo.max
+Mon Apr 01 13:47:45 Saved as file ~undo.max
+Mon Apr 01 13:52:12 Saved as file ~undo.max
+Mon Apr 01 13:53:07 Saved as file ~undo.max
+Mon Apr 01 13:53:08 Saved as file ~undo.max
+Mon Apr 01 13:53:09 Saved as file ~undo.max
+Mon Apr 01 13:53:54 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 13:55:35 Saved as file ~undo.max
+Mon Apr 01 13:55:40 Saved as file ~undo.max
+Mon Apr 01 13:58:15 Saved as file ~undo.max
+Mon Apr 01 13:58:18 Saved as file BACKUP1.MAX
+Mon Apr 01 14:08:48 Saved as file BACKUP1.MAX
+Mon Apr 01 14:19:18 Saved as file BACKUP1.MAX
+Mon Apr 01 14:24:17 Saved as file ~undo.max
+Mon Apr 01 14:24:39 Saved as file ~undo.max
+Mon Apr 01 14:24:49 Saved as file ~undo.max
+Mon Apr 01 14:25:15 Saved as file ~undo.max
+Mon Apr 01 14:25:49 Saved as file ~undo.max
+Mon Apr 01 14:25:57 Saved as file ~undo.max
+Mon Apr 01 14:26:08 Saved as file ~undo.max
+Mon Apr 01 14:26:09 Saved as file ~undo.max
+Mon Apr 01 14:26:10 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 14:26:11 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 14:26:23 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 14:26:23 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 14:26:55 Saved as file ~undo.max
+Mon Apr 01 14:29:48 Saved as file BACKUP1.MAX
+Mon Apr 01 14:40:18 Saved as file BACKUP1.MAX
+Mon Apr 01 14:41:12 Saved as file ~undo.max
+Mon Apr 01 14:41:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 14:42:41 Saved as file ~undo.max
+Mon Apr 01 14:44:01 Saved as file ~undo.max
+Mon Apr 01 14:44:52 Saved as file ~undo.max
+Mon Apr 01 14:45:19 Saved as file ~undo.max
+Mon Apr 01 14:49:13 Saved as file ~undo.max
+Mon Apr 01 14:50:41 Saved as file ~undo.max
+Mon Apr 01 14:51:04 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 14:51:11 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:31:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:27 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\MUSHTAQN_LIB.LLB
+Mon Apr 01 15:31:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:41 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:43 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:31:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Apr 01 15:32:02 Saved as file ~undo.max
+Mon Apr 01 15:32:04 Saved as file ~undo.max
+Mon Apr 01 15:32:41 Saved as file ~undo.max
+Mon Apr 01 15:33:03 Saved as file ~undo.max
+Mon Apr 01 15:33:05 Saved as file ~undo.max
+Mon Apr 01 15:33:20 Saved as file ~undo.max
+Mon Apr 01 15:33:21 Saved as file ~undo.max
+Mon Apr 01 15:33:29 Saved as file ~undo.max
+Mon Apr 01 15:33:29 Saved as file ~undo.max
+Mon Apr 01 15:33:33 Saved as file ~undo.max
+Mon Apr 01 15:33:37 Saved as file ~undo.max
+Mon Apr 01 15:33:38 Saved as file ~undo.max
+Mon Apr 01 15:33:47 Saved as file ~undo.max
+Mon Apr 01 15:33:48 Saved as file ~undo.max
+Mon Apr 01 15:33:52 Saved as file ~undo.max
+Mon Apr 01 15:33:53 Saved as file ~undo.max
+Mon Apr 01 15:33:55 Saved as file ~undo.max
+Mon Apr 01 15:33:56 Saved as file ~undo.max
+Mon Apr 01 15:34:02 Saved as file ~undo.max
+Mon Apr 01 15:34:03 Saved as file ~undo.max
+Mon Apr 01 15:36:18 Saved as file ~undo.max
+Mon Apr 01 15:36:19 Saved as file ~undo.max
+Mon Apr 01 15:36:37 Saved as file ~undo.max
+Mon Apr 01 15:36:58 Saved as file ~undo.max
+Mon Apr 01 15:37:00 Saved as file ~undo.max
+Mon Apr 01 15:37:05 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:37:59 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:38:01 Saved as file ~undo.max
+Mon Apr 01 15:38:48 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:38:48 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:38:49 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:40:01 Saved as file ~undo.max
+Mon Apr 01 15:40:44 Saved as file ~undo.max
+Mon Apr 01 15:40:53 Saved as file ~undo.max
+Mon Apr 01 15:41:23 Saved as file BACKUP1.MAX
+Mon Apr 01 15:43:17 Saved as file ~undo.max
+Mon Apr 01 15:43:18 Saved as file ~undo.max
+Mon Apr 01 15:43:43 Saved as file ~undo.max
+Mon Apr 01 15:44:35 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:44:35 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:44:36 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:44:40 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 01 15:52:23 Saved as file BACKUP1.MAX
+Mon Apr 01 16:02:53 Saved as file BACKUP1.MAX
+Mon Apr 01 16:13:23 Saved as file BACKUP1.MAX
+Mon Apr 01 16:23:53 Saved as file BACKUP1.MAX
+Mon Apr 01 16:34:23 Saved as file BACKUP1.MAX
+Mon Apr 01 16:44:53 Saved as file BACKUP1.MAX
+Wed Apr 03 08:36:49 Saved as file ~undo.max
+Wed Apr 03 08:52:39 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 03 08:52:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:52:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:52:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:53:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:53:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:53:43 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Wed Apr 03 08:53:47 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Wed Apr 03 08:53:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:00 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:00 Saved as file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:00 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Wed Apr 03 08:54:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:08 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:18 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:22 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:32 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:44 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:54:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:54:56 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:06 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:06 Saved as file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:06 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Wed Apr 03 08:55:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:11 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:20 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:29 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:41 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:55:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:55:57 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:06 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:12 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:23 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:23 Saved as file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:23 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Wed Apr 03 08:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:29 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:35 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:36 Saved as file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:36 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\CHRONO32C\CHRONO-32C-TDC_R0\LIBRARY\CHRONO32C_LIB.LLB
+Wed Apr 03 08:56:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:41 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:56:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:56:51 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 03 08:56:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:57:36 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 03 08:57:52 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 03 08:58:13 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 03 08:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:58:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:58:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:58:28 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:58:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:58:44 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:58:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:58:52 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:58:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:01 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:59:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:12 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:59:12 Saved as file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:59:12 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 03 08:59:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:26 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 08:59:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:41 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 08:59:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:01 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 03 09:00:08 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:00:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 03 09:01:12 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Wed Apr 03 13:38:35 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Fri Apr 05 11:14:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Apr 05 11:14:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Apr 05 11:31:53 Saved as file ~undo.max
+Fri Apr 05 11:42:27 Saved as file BACKUP1.MAX
+Fri Apr 05 11:52:56 Saved as file BACKUP1.MAX
+Fri Apr 05 12:03:26 Saved as file BACKUP1.MAX
+Fri Apr 05 12:13:56 Saved as file BACKUP1.MAX
+Fri Apr 05 12:24:26 Saved as file BACKUP1.MAX
+Fri Apr 05 12:34:56 Saved as file BACKUP1.MAX
+Fri Apr 05 12:45:26 Saved as file BACKUP1.MAX
+Fri Apr 05 12:55:56 Saved as file BACKUP1.MAX
+Fri Apr 05 13:06:26 Saved as file BACKUP1.MAX
+Fri Apr 05 13:16:56 Saved as file BACKUP1.MAX
+Fri Apr 05 13:27:26 Saved as file BACKUP1.MAX
+Fri Apr 05 13:37:56 Saved as file BACKUP1.MAX
+Fri Apr 05 13:48:26 Saved as file BACKUP1.MAX
+Fri Apr 05 13:58:56 Saved as file BACKUP1.MAX
+Fri Apr 05 14:09:26 Saved as file BACKUP1.MAX
+Fri Apr 05 14:19:56 Saved as file BACKUP1.MAX
+Fri Apr 05 14:23:55 Saved as file ~undo.max
+Fri Apr 05 14:26:12 Saved as file ~undo.max
+Fri Apr 05 14:26:35 Saved as file ~undo.max
+Fri Apr 05 14:27:42 Saved as file ~undo.max
+Fri Apr 05 14:28:55 Saved as file ~undo.max
+Fri Apr 05 14:31:26 Saved as file BACKUP1.MAX
+Mon Apr 08 10:28:47 Saved as file BACKUP1.MAX
+Mon Apr 08 10:28:47 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 08 10:28:49 UserDiv from Layout.INI for AutoECO: 60
+Mon Apr 08 10:28:49 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Mon Apr 08 10:28:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Mon Apr 08 10:28:49 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Mon Apr 08 10:28:49 Loaded file C:\DOCUMENTS AND SETTINGS\ASD\DESKTOP\XT.LLB
+Mon Apr 08 10:28:49 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\EX_GUI.LLB
+Mon Apr 08 10:28:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Mon Apr 08 10:28:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Mon Apr 08 10:28:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Mon Apr 08 10:28:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Mon Apr 08 10:28:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Mon Apr 08 10:28:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Mon Apr 08 10:28:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Mon Apr 08 10:28:52 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Mon Apr 08 10:28:52 Loaded file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Mon Apr 08 10:44:11 Saved as file BACKUP1.MAX
+Mon Apr 08 10:50:55 Saved as file ~undo.max
+Mon Apr 08 10:55:11 Saved as file BACKUP1.MAX
+Mon Apr 08 11:05:41 Saved as file BACKUP1.MAX
+Mon Apr 08 11:16:11 Saved as file BACKUP1.MAX
+Mon Apr 08 11:26:41 Saved as file BACKUP1.MAX
+Mon Apr 08 11:37:11 Saved as file BACKUP1.MAX
+Mon Apr 08 11:47:41 Saved as file BACKUP1.MAX
+Mon Apr 08 11:58:11 Saved as file BACKUP1.MAX
+Mon Apr 08 12:08:41 Saved as file BACKUP1.MAX
+Mon Apr 08 12:19:11 Saved as file BACKUP1.MAX
+Mon Apr 08 12:29:41 Saved as file BACKUP1.MAX
+Mon Apr 08 12:40:11 Saved as file BACKUP1.MAX
+Mon Apr 08 12:50:41 Saved as file BACKUP1.MAX
+Mon Apr 08 13:01:11 Saved as file BACKUP1.MAX
+Mon Apr 08 13:11:41 Saved as file BACKUP1.MAX
+Mon Apr 08 13:22:11 Saved as file BACKUP1.MAX
+Mon Apr 08 13:32:41 Saved as file BACKUP1.MAX
+Mon Apr 08 13:43:11 Saved as file BACKUP1.MAX
+Mon Apr 08 13:53:41 Saved as file BACKUP1.MAX
+Mon Apr 08 14:04:11 Saved as file BACKUP1.MAX
+Mon Apr 08 14:14:41 Saved as file BACKUP1.MAX
+Mon Apr 08 14:25:11 Saved as file BACKUP1.MAX
+Mon Apr 08 14:35:41 Saved as file BACKUP1.MAX
+Mon Apr 08 14:46:11 Saved as file BACKUP1.MAX
+Mon Apr 08 14:56:41 Saved as file BACKUP1.MAX
+Mon Apr 08 15:07:11 Saved as file BACKUP1.MAX
+Mon Apr 08 15:17:41 Saved as file BACKUP1.MAX
+Mon Apr 08 15:28:11 Saved as file BACKUP1.MAX
+Tue Apr 09 08:45:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Apr 09 08:45:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Apr 09 08:45:56 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\COMMON.LLB
+Tue Apr 09 08:46:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Tue Apr 09 08:46:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Tue Apr 09 08:46:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Tue Apr 09 08:46:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Tue Apr 09 08:46:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Tue Apr 09 08:46:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Tue Apr 09 08:46:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Tue Apr 09 08:46:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Tue Apr 09 08:46:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Apr 09 08:46:11 Saved as file ~undo.max
+Tue Apr 09 08:46:14 Saved as file ~undo.max
+Tue Apr 09 08:53:43 Saved as file BACKUP1.MAX
+Tue Apr 09 09:04:13 Saved as file BACKUP1.MAX
+Tue Apr 09 09:14:43 Saved as file BACKUP1.MAX
+Tue Apr 09 09:25:13 Saved as file BACKUP1.MAX
+Tue Apr 09 09:35:43 Saved as file BACKUP1.MAX
+Tue Apr 09 09:46:13 Saved as file BACKUP1.MAX
+Tue Apr 09 09:56:43 Saved as file BACKUP1.MAX
+Tue Apr 09 10:07:13 Saved as file BACKUP1.MAX
+Tue Apr 09 10:17:43 Saved as file BACKUP1.MAX
+Tue Apr 09 10:28:13 Saved as file BACKUP1.MAX
+Wed Apr 10 08:24:53 Saved as file ~undo.max
+Wed Apr 10 08:24:55 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 10 08:26:51 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 10 08:27:34 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 10 08:33:30 Saved as file BACKUP1.MAX
+Wed Apr 10 08:42:53 Saved as file ~undo.max
+Wed Apr 10 08:42:59 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 10 08:44:00 Saved as file BACKUP1.MAX
+Wed Apr 10 08:44:09 Saved as file ~undo.max
+Wed Apr 10 08:44:14 Saved as file ~undo.max
+Wed Apr 10 08:44:16 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 10 08:44:38 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-31.MAX
+Wed Apr 10 08:45:34 Saved as file ~undo.max
+Wed Apr 10 08:45:54 Saved as file ~undo.max
+Wed Apr 10 08:46:46 Saved as file ~undo.max
+Wed Apr 10 08:54:30 Saved as file BACKUP1.MAX
+Wed Apr 10 09:05:00 Saved as file BACKUP1.MAX
+Wed Apr 10 09:14:50 Saved as file ~undo.max
+Wed Apr 10 09:15:30 Saved as file BACKUP1.MAX
+Wed Apr 10 09:16:03 Saved as file ~undo.max
+Wed Apr 10 09:16:24 Saved as file ~undo.max
+Wed Apr 10 09:17:02 Saved as file ~undo.max
+Wed Apr 10 09:17:17 Saved as file ~undo.max
+Wed Apr 10 09:18:13 Saved as file ~undo.max
+Wed Apr 10 09:18:16 Saved as file ~undo.max
+Wed Apr 10 09:18:24 Saved as file ~undo.max
+Wed Apr 10 09:18:36 Saved as file ~undo.max
+Wed Apr 10 09:18:48 Saved as file ~undo.max
+Wed Apr 10 09:18:52 Saved as file ~undo.max
+Wed Apr 10 09:18:59 Saved as file ~undo.max
+Wed Apr 10 09:19:12 Saved as file ~undo.max
+Wed Apr 10 09:20:02 Saved as file ~undo.max
+Wed Apr 10 09:20:07 Saved as file ~undo.max
+Wed Apr 10 09:20:15 Saved as file ~undo.max
+Wed Apr 10 09:20:19 Saved as file ~undo.max
+Wed Apr 10 09:20:53 Saved as file ~undo.max
+Wed Apr 10 09:21:05 Saved as file ~undo.max
+Wed Apr 10 09:21:39 Saved as file ~undo.max
+Wed Apr 10 09:22:36 Saved as file ~undo.max
+Wed Apr 10 09:23:06 Saved as file ~undo.max
+Wed Apr 10 09:23:42 Saved as file ~undo.max
+Wed Apr 10 09:24:57 Saved as file ~undo.max
+Wed Apr 10 09:26:00 Saved as file BACKUP1.MAX
+Wed Apr 10 09:26:04 Saved as file ~undo.max
+Wed Apr 10 09:27:01 Saved as file ~undo.max
+Wed Apr 10 09:27:03 Saved as file ~undo.max
+Wed Apr 10 09:27:21 Saved as file ~undo.max
+Wed Apr 10 09:27:48 Saved as file ~undo.max
+Wed Apr 10 09:27:50 Saved as file ~undo.max
+Wed Apr 10 09:29:23 Saved as file ~undo.max
+Wed Apr 10 09:29:48 Saved as file ~undo.max
+Wed Apr 10 09:30:01 Saved as file ~undo.max
+Wed Apr 10 09:30:09 Saved as file ~undo.max
+Wed Apr 10 09:30:28 Saved as file ~undo.max
+Wed Apr 10 09:30:42 Saved as file ~undo.max
+Wed Apr 10 09:31:08 Saved as file ~undo.max
+Wed Apr 10 09:31:19 Saved as file ~undo.max
+Wed Apr 10 09:31:40 Saved as file ~undo.max
+Wed Apr 10 09:32:01 Saved as file ~undo.max
+Wed Apr 10 09:32:12 Saved as file ~undo.max
+Wed Apr 10 09:32:38 Saved as file ~undo.max
+Wed Apr 10 09:33:17 Saved as file ~undo.max
+Wed Apr 10 09:34:10 Saved as file ~undo.max
+Wed Apr 10 09:34:36 Saved as file ~undo.max
+Wed Apr 10 09:34:54 Saved as file ~undo.max
+Wed Apr 10 09:34:57 Saved as file ~undo.max
+Wed Apr 10 09:36:30 Saved as file BACKUP1.MAX
+Wed Apr 10 09:37:21 Saved as file ~undo.max
+Wed Apr 10 09:37:32 Saved as file ~undo.max
+Wed Apr 10 09:37:37 Saved as file ~undo.max
+Wed Apr 10 09:37:39 Saved as file ~undo.max
+Wed Apr 10 09:38:31 Saved as file ~undo.max
+Wed Apr 10 09:38:46 Saved as file ~undo.max
+Wed Apr 10 09:38:52 Saved as file ~undo.max
+Wed Apr 10 09:40:17 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 09:41:20 Saved as file ~undo.max
+Wed Apr 10 09:42:56 Saved as file ~undo.max
+Wed Apr 10 09:43:38 Saved as file ~undo.max
+Wed Apr 10 09:44:21 Saved as file ~undo.max
+Wed Apr 10 09:44:56 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 09:45:37 Saved as file ~undo.max
+Wed Apr 10 09:45:51 Saved as file ~undo.max
+Wed Apr 10 09:47:00 Saved as file BACKUP1.MAX
+Wed Apr 10 09:47:06 Saved as file ~undo.max
+Wed Apr 10 09:47:30 Saved as file ~undo.max
+Wed Apr 10 09:47:52 Saved as file ~undo.max
+Wed Apr 10 09:48:07 Saved as file ~undo.max
+Wed Apr 10 09:48:36 Saved as file ~undo.max
+Wed Apr 10 09:48:52 Saved as file ~undo.max
+Wed Apr 10 09:49:22 Saved as file ~undo.max
+Wed Apr 10 09:49:38 Saved as file ~undo.max
+Wed Apr 10 09:49:44 Saved as file ~undo.max
+Wed Apr 10 09:49:45 Saved as file ~undo.max
+Wed Apr 10 09:50:00 Saved as file ~undo.max
+Wed Apr 10 09:50:02 Saved as file ~undo.max
+Wed Apr 10 09:50:11 Saved as file ~undo.max
+Wed Apr 10 09:50:12 Saved as file ~undo.max
+Wed Apr 10 09:50:24 Saved as file ~undo.max
+Wed Apr 10 09:50:32 Saved as file ~undo.max
+Wed Apr 10 09:50:58 Saved as file ~undo.max
+Wed Apr 10 09:50:59 Saved as file ~undo.max
+Wed Apr 10 09:51:01 Saved as file BACKUP1.MAX
+Wed Apr 10 09:51:26 Saved as file ~undo.max
+Wed Apr 10 09:51:36 Saved as file ~undo.max
+Wed Apr 10 09:51:40 Saved as file ~undo.max
+Wed Apr 10 09:51:41 Saved as file ~undo.max
+Wed Apr 10 09:51:51 Saved as file ~undo.max
+Wed Apr 10 09:51:58 Saved as file ~undo.max
+Wed Apr 10 09:52:05 Saved as file ~undo.max
+Wed Apr 10 09:52:07 Saved as file ~undo.max
+Wed Apr 10 09:52:30 Saved as file ~undo.max
+Wed Apr 10 09:52:32 Saved as file ~undo.max
+Wed Apr 10 09:57:03 Saved as file ~undo.max
+Wed Apr 10 09:57:30 Saved as file BACKUP1.MAX
+Wed Apr 10 09:57:39 Saved as file ~undo.max
+Wed Apr 10 09:57:42 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 09:57:57 Saved as file ~undo.max
+Wed Apr 10 10:00:08 Saved as file ~undo.max
+Wed Apr 10 10:00:10 Saved as file ~undo.max
+Wed Apr 10 10:00:30 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:01:31 Saved as file BACKUP1.MAX
+Wed Apr 10 10:08:00 Saved as file BACKUP1.MAX
+Wed Apr 10 10:12:01 Saved as file BACKUP1.MAX
+Wed Apr 10 10:18:30 Saved as file BACKUP1.MAX
+Wed Apr 10 10:21:34 Saved as file ~undo.max
+Wed Apr 10 10:21:56 Saved as file ~undo.max
+Wed Apr 10 10:21:57 Saved as file ~undo.max
+Wed Apr 10 10:22:15 Saved as file ~undo.max
+Wed Apr 10 10:22:25 Saved as file ~undo.max
+Wed Apr 10 10:22:31 Saved as file BACKUP1.MAX
+Wed Apr 10 10:22:37 Saved as file ~undo.max
+Wed Apr 10 10:22:47 Saved as file ~undo.max
+Wed Apr 10 10:22:57 Saved as file ~undo.max
+Wed Apr 10 10:23:10 Saved as file ~undo.max
+Wed Apr 10 10:25:01 Saved as file ~undo.max
+Wed Apr 10 10:25:02 Saved as file ~undo.max
+Wed Apr 10 10:25:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:25:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:28:11 Saved as file ~undo.max
+Wed Apr 10 10:28:46 Saved as file ~undo.max
+Wed Apr 10 10:29:17 Saved as file ~undo.max
+Wed Apr 10 10:29:22 Saved as file ~undo.max
+Wed Apr 10 10:29:24 Saved as file ~undo.max
+Wed Apr 10 10:29:30 Saved as file BACKUP1.MAX
+Wed Apr 10 10:29:37 Saved as file ~undo.max
+Wed Apr 10 10:29:46 Saved as file ~undo.max
+Wed Apr 10 10:30:21 Saved as file ~undo.max
+Wed Apr 10 10:30:30 Saved as file ~undo.max
+Wed Apr 10 10:31:23 Saved as file ~undo.max
+Wed Apr 10 10:32:05 Saved as file ~undo.max
+Wed Apr 10 10:32:16 Saved as file ~undo.max
+Wed Apr 10 10:33:01 Saved as file BACKUP1.MAX
+Wed Apr 10 10:33:08 Saved as file ~undo.max
+Wed Apr 10 10:33:37 Saved as file ~undo.max
+Wed Apr 10 10:33:42 Saved as file ~undo.max
+Wed Apr 10 10:34:01 Saved as file ~undo.max
+Wed Apr 10 10:34:41 Saved as file ~undo.max
+Wed Apr 10 10:34:43 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:35:45 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:35:45 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:35:47 Saved as file ~undo.max
+Wed Apr 10 10:37:02 Saved as file ~undo.max
+Wed Apr 10 10:37:03 Saved as file ~undo.max
+Wed Apr 10 10:38:13 Saved as file ~undo.max
+Wed Apr 10 10:38:32 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:39:03 Saved as file ~undo.max
+Wed Apr 10 10:39:39 Saved as file ~undo.max
+Wed Apr 10 10:39:52 Saved as file ~undo.max
+Wed Apr 10 10:40:00 Saved as file BACKUP1.MAX
+Wed Apr 10 10:40:02 Saved as file ~undo.max
+Wed Apr 10 10:40:39 Saved as file ~undo.max
+Wed Apr 10 10:40:57 Saved as file ~undo.max
+Wed Apr 10 10:41:06 Saved as file ~undo.max
+Wed Apr 10 10:41:08 Saved as file ~undo.max
+Wed Apr 10 10:41:14 Saved as file ~undo.max
+Wed Apr 10 10:41:16 Saved as file ~undo.max
+Wed Apr 10 10:41:23 Saved as file ~undo.max
+Wed Apr 10 10:41:25 Saved as file ~undo.max
+Wed Apr 10 10:41:29 Saved as file ~undo.max
+Wed Apr 10 10:41:36 Saved as file ~undo.max
+Wed Apr 10 10:41:39 Saved as file ~undo.max
+Wed Apr 10 10:41:41 Saved as file ~undo.max
+Wed Apr 10 10:41:54 Saved as file ~undo.max
+Wed Apr 10 10:42:27 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:43:08 Saved as file ~undo.max
+Wed Apr 10 10:43:18 Saved as file ~undo.max
+Wed Apr 10 10:43:31 Saved as file BACKUP1.MAX
+Wed Apr 10 10:44:27 Saved as file ~undo.max
+Wed Apr 10 10:44:38 Saved as file ~undo.max
+Wed Apr 10 10:44:56 Saved as file ~undo.max
+Wed Apr 10 10:45:03 Saved as file ~undo.max
+Wed Apr 10 10:45:45 Saved as file ~undo.max
+Wed Apr 10 10:46:00 Saved as file ~undo.max
+Wed Apr 10 10:46:10 Saved as file ~undo.max
+Wed Apr 10 10:46:56 Saved as file ~undo.max
+Wed Apr 10 10:46:59 Saved as file ~undo.max
+Wed Apr 10 10:47:02 Saved as file ~undo.max
+Wed Apr 10 10:47:14 Saved as file ~undo.max
+Wed Apr 10 10:47:17 Saved as file ~undo.max
+Wed Apr 10 10:47:24 Saved as file ~undo.max
+Wed Apr 10 10:47:25 Saved as file ~undo.max
+Wed Apr 10 10:47:34 Saved as file ~undo.max
+Wed Apr 10 10:47:35 Saved as file ~undo.max
+Wed Apr 10 10:48:11 Saved as file ~undo.max
+Wed Apr 10 10:48:12 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:48:20 Saved as file ~undo.max
+Wed Apr 10 10:48:30 Saved as file ~undo.max
+Wed Apr 10 10:48:40 Saved as file ~undo.max
+Wed Apr 10 10:48:50 Saved as file ~undo.max
+Wed Apr 10 10:49:05 Saved as file ~undo.max
+Wed Apr 10 10:49:06 Saved as file ~undo.max
+Wed Apr 10 10:49:18 Saved as file ~undo.max
+Wed Apr 10 10:49:22 Saved as file ~undo.max
+Wed Apr 10 10:49:29 Saved as file ~undo.max
+Wed Apr 10 10:50:09 Saved as file ~undo.max
+Wed Apr 10 10:50:30 Saved as file BACKUP1.MAX
+Wed Apr 10 10:50:56 Saved as file ~undo.max
+Wed Apr 10 10:51:09 Saved as file ~undo.max
+Wed Apr 10 10:51:15 Saved as file ~undo.max
+Wed Apr 10 10:51:44 Saved as file ~undo.max
+Wed Apr 10 10:52:00 Saved as file ~undo.max
+Wed Apr 10 10:52:06 Saved as file ~undo.max
+Wed Apr 10 10:52:13 Saved as file ~undo.max
+Wed Apr 10 10:52:25 Saved as file ~undo.max
+Wed Apr 10 10:52:51 Saved as file ~undo.max
+Wed Apr 10 10:53:02 Saved as file ~undo.max
+Wed Apr 10 10:53:08 Saved as file ~undo.max
+Wed Apr 10 10:53:12 Saved as file ~undo.max
+Wed Apr 10 10:53:13 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:53:37 Saved as file ~undo.max
+Wed Apr 10 10:53:47 Saved as file ~undo.max
+Wed Apr 10 10:53:57 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:54:01 Saved as file BACKUP1.MAX
+Wed Apr 10 10:54:29 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 10:55:00 Saved as file ~undo.max
+Wed Apr 10 10:55:04 Saved as file ~undo.max
+Wed Apr 10 10:56:45 Saved as file ~undo.max
+Wed Apr 10 10:57:22 Saved as file ~undo.max
+Wed Apr 10 10:57:45 Saved as file ~undo.max
+Wed Apr 10 10:57:53 Saved as file ~undo.max
+Wed Apr 10 10:58:16 Saved as file ~undo.max
+Wed Apr 10 10:58:18 Saved as file ~undo.max
+Wed Apr 10 10:58:18 Saved as file ~undo.max
+Wed Apr 10 10:58:19 Saved as file ~undo.max
+Wed Apr 10 10:58:31 Saved as file ~undo.max
+Wed Apr 10 10:58:32 Saved as file ~undo.max
+Wed Apr 10 10:58:46 Saved as file ~undo.max
+Wed Apr 10 10:58:56 Saved as file ~undo.max
+Wed Apr 10 10:58:58 Saved as file ~undo.max
+Wed Apr 10 10:59:27 Saved as file ~undo.max
+Wed Apr 10 10:59:33 Saved as file ~undo.max
+Wed Apr 10 10:59:34 Saved as file ~undo.max
+Wed Apr 10 10:59:35 Saved as file ~undo.max
+Wed Apr 10 10:59:38 Saved as file ~undo.max
+Wed Apr 10 10:59:56 Saved as file ~undo.max
+Wed Apr 10 10:59:57 Saved as file ~undo.max
+Wed Apr 10 10:59:57 Saved as file ~undo.max
+Wed Apr 10 10:59:58 Saved as file ~undo.max
+Wed Apr 10 11:00:15 Saved as file ~undo.max
+Wed Apr 10 11:01:00 Saved as file BACKUP1.MAX
+Wed Apr 10 11:01:19 Saved as file ~undo.max
+Wed Apr 10 11:01:55 Saved as file ~undo.max
+Wed Apr 10 11:03:19 Saved as file ~undo.max
+Wed Apr 10 11:03:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 11:04:31 Saved as file BACKUP1.MAX
+Wed Apr 10 11:04:59 Saved as file ~undo.max
+Wed Apr 10 11:06:15 Saved as file ~undo.max
+Wed Apr 10 11:07:02 Saved as file ~undo.max
+Wed Apr 10 11:07:10 Saved as file ~undo.max
+Wed Apr 10 11:07:17 Saved as file ~undo.max
+Wed Apr 10 11:07:24 Saved as file ~undo.max
+Wed Apr 10 11:07:58 Saved as file ~undo.max
+Wed Apr 10 11:08:13 Saved as file ~undo.max
+Wed Apr 10 11:08:33 Saved as file ~undo.max
+Wed Apr 10 11:08:38 Saved as file ~undo.max
+Wed Apr 10 11:08:46 Saved as file ~undo.max
+Wed Apr 10 11:08:58 Saved as file ~undo.max
+Wed Apr 10 11:09:07 Saved as file ~undo.max
+Wed Apr 10 11:09:08 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 11:09:38 Saved as file ~undo.max
+Wed Apr 10 11:09:46 Saved as file ~undo.max
+Wed Apr 10 11:09:47 Saved as file ~undo.max
+Wed Apr 10 11:10:02 Saved as file ~undo.max
+Wed Apr 10 13:40:41 Saved as file ~undo.max
+Wed Apr 10 13:40:58 Saved as file ~undo.max
+Wed Apr 10 13:41:39 Saved as file ~undo.max
+Wed Apr 10 13:42:10 Saved as file ~undo.max
+Wed Apr 10 13:42:37 Saved as file ~undo.max
+Wed Apr 10 13:42:53 Saved as file ~undo.max
+Wed Apr 10 13:43:06 Saved as file ~undo.max
+Wed Apr 10 13:43:27 Saved as file ~undo.max
+Wed Apr 10 13:43:43 Saved as file ~undo.max
+Wed Apr 10 13:43:44 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 13:43:45 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 13:43:45 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 13:49:41 Saved as file BACKUP1.MAX
+Wed Apr 10 13:50:01 Saved as file BACKUP1.MAX
+Wed Apr 10 13:53:28 Saved as file ~undo.max
+Wed Apr 10 13:54:21 Saved as file ~undo.max
+Wed Apr 10 13:54:36 Saved as file ~undo.max
+Wed Apr 10 13:55:08 Saved as file ~undo.max
+Wed Apr 10 13:56:34 Saved as file ~undo.max
+Wed Apr 10 13:57:08 Saved as file ~undo.max
+Wed Apr 10 13:57:32 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 13:57:56 Saved as file ~undo.max
+Wed Apr 10 13:58:06 Saved as file ~undo.max
+Wed Apr 10 13:58:57 Saved as file ~undo.max
+Wed Apr 10 13:59:12 Saved as file ~undo.max
+Wed Apr 10 13:59:16 Saved as file ~undo.max
+Wed Apr 10 13:59:28 Saved as file ~undo.max
+Wed Apr 10 13:59:29 Saved as file ~undo.max
+Wed Apr 10 13:59:29 Saved as file ~undo.max
+Wed Apr 10 13:59:41 Saved as file ~undo.max
+Wed Apr 10 14:00:05 Saved as file ~undo.max
+Wed Apr 10 14:00:11 Saved as file BACKUP1.MAX
+Wed Apr 10 14:00:12 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:01:14 Saved as file ~undo.max
+Wed Apr 10 14:01:32 Saved as file ~undo.max
+Wed Apr 10 14:01:53 Saved as file ~undo.max
+Wed Apr 10 14:01:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:01:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:00 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Wed Apr 10 14:02:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Wed Apr 10 14:02:27 Saved as file ~undo.max
+Wed Apr 10 14:02:34 Saved as file ~undo.max
+Wed Apr 10 14:02:41 Saved as file ~undo.max
+Wed Apr 10 14:02:47 Saved as file ~undo.max
+Wed Apr 10 14:02:54 Saved as file ~undo.max
+Wed Apr 10 14:02:55 Saved as file ~undo.max
+Wed Apr 10 14:03:01 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:03:01 Saved as file BACKUP1.MAX
+Wed Apr 10 14:04:18 Saved as file ~undo.max
+Wed Apr 10 14:04:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:04:32 Saved as file ~undo.max
+Wed Apr 10 14:04:37 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:04:38 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:06:14 Saved as file ~undo.max
+Wed Apr 10 14:06:55 Saved as file ~undo.max
+Wed Apr 10 14:06:56 Saved as file ~undo.max
+Wed Apr 10 14:07:02 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:08:03 Saved as file ~undo.max
+Wed Apr 10 14:08:11 Saved as file ~undo.max
+Wed Apr 10 14:08:33 Saved as file ~undo.max
+Wed Apr 10 14:08:44 Saved as file ~undo.max
+Wed Apr 10 14:08:51 Saved as file ~undo.max
+Wed Apr 10 14:09:01 Saved as file ~undo.max
+Wed Apr 10 14:10:11 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:12 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:12 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:13 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:24 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:36 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:41 Saved as file BACKUP1.MAX
+Wed Apr 10 14:10:56 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:10:56 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:12:19 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:12:19 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:12:20 Saved as file F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-32.MAX
+Wed Apr 10 14:14:01 Saved as file BACKUP1.MAX
+Wed Apr 10 14:21:11 Saved as file BACKUP1.MAX
+Wed Apr 10 14:24:31 Saved as file BACKUP1.MAX
+Wed Apr 10 14:31:41 Saved as file BACKUP1.MAX
+Wed Apr 10 14:35:01 Saved as file BACKUP1.MAX
+Wed Apr 10 14:42:11 Saved as file BACKUP1.MAX
+Wed Apr 10 14:45:31 Saved as file BACKUP1.MAX
+Wed Apr 10 14:52:41 Saved as file BACKUP1.MAX
+Wed Apr 10 14:56:01 Saved as file BACKUP1.MAX
+Thu Apr 11 08:21:41 Saved as file BACKUP1.MAX
+Thu Apr 11 08:32:11 Saved as file BACKUP1.MAX
+Thu Apr 11 08:42:41 Saved as file BACKUP1.MAX
+Thu Apr 11 08:53:11 Saved as file BACKUP1.MAX
+Thu Apr 11 09:03:41 Saved as file BACKUP1.MAX
+Thu Apr 11 09:14:11 Saved as file BACKUP1.MAX
+Thu Apr 11 09:24:41 Saved as file BACKUP1.MAX
+Thu Apr 11 09:35:11 Saved as file BACKUP1.MAX
+Thu Apr 11 09:45:41 Saved as file BACKUP1.MAX
+Thu Apr 11 09:56:11 Saved as file BACKUP1.MAX
+Thu Apr 11 10:06:41 Saved as file BACKUP1.MAX
+Thu Apr 11 10:17:11 Saved as file BACKUP1.MAX
+Thu Apr 11 10:27:41 Saved as file BACKUP1.MAX
+Thu Apr 11 10:38:11 Saved as file BACKUP1.MAX
+Thu Apr 11 10:48:41 Saved as file BACKUP1.MAX
+Thu Apr 11 10:59:11 Saved as file BACKUP1.MAX
+Thu Apr 11 11:09:41 Saved as file BACKUP1.MAX
+Fri Apr 12 09:46:32 Saved as file BACKUP1.MAX
+Fri Apr 12 09:57:02 Saved as file BACKUP1.MAX
+Fri Apr 12 10:07:32 Saved as file BACKUP1.MAX
+Fri Apr 12 10:18:02 Saved as file BACKUP1.MAX
+Fri Apr 12 10:28:32 Saved as file BACKUP1.MAX
+Fri Apr 12 10:39:02 Saved as file BACKUP1.MAX
+                                               

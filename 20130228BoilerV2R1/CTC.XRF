@@ -1,0 +1,31 @@
+WIN32 L51 CODE BANKING LINKER/LOCATOR V4.08.06,  INVOKED BY: 
+L51.EXE e:\p\ctc boiler\20130228boilerv2r1\main.OBJ  to  E:\P\CTC BOILER\20130228BOILERV2R1\CTC.ABS PR(E:\P\CTC BOILER\20130228BOILERV2R1\CTC.M51) SN(1066142959415E46769E694) PW(80) RS(256) ix 
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+    NAME. . . . . . . . USAGE   MODULE NAMES
+    ----------------------------------------
+    ?C_INITSEGSTART . . CODE    [_C_INITD]:  C1S 
+    ?C_START1 . . . . . CODE    [C1S]:  MAIN 
+    DELAY10MS . . . . . CODE    [MAIN]:  MAIN 
+    DELAYUS . . . . . . CODE    [MAIN]: 
+    IDATALEN  . . . . .         [_C_IDATALEN]:  C1S 
+    IPGN1?C . . . . . . CODE    [IPGN1]:  MAIN 
+    ISINIT  . . . . . . BIT     [MAIN]: 
+    LCDBUSY . . . . . . CODE    [MAIN]: 
+    LCDCLEAR  . . . . . CODE    [MAIN]: 
+    LCDINIT . . . . . . CODE    [MAIN]: 
+    MAIN  . . . . . . . CODE    [MAIN]:  C1S 
+    NSTATE  . . . . . . DATA    [MAIN]: 
+    PCATIMERS . . . . . CODE    [MAIN]: 
+    READDAMPER  . . . . CODE    [MAIN]: 
+    STATE . . . . . . . DATA    [MAIN]: 
+    STOPPED . . . . . . BIT     [MAIN]: 
+    _DELAYXMS . . . . . CODE    [MAIN]: 
+    _INITP2?  . . . . .         [_C_IDATALEN]:  C1S 
+    _LCDGOTOXY  . . . . CODE    [MAIN]: 
+    _LCDWRITECHAR . . . CODE    [MAIN]: 
+    _LCDWRITECMD  . . . CODE    [MAIN]:  MAIN 
+    _LCDWRITESTR  . . . CODE    [MAIN]: 
+    _STACK  . . . . . . IDATA   [MAIN]:  C1S 

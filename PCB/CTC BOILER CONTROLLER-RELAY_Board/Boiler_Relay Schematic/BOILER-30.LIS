@@ -1,0 +1,39 @@
+AutoECO Report
+FILE-A: F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER-29.MAX
+FILE-B: F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-RELAY_BOARD\BOILER_RELAY SCHEMATIC\BOILER.MNL
+If "*EOF*" immediately follows, no changes were made
+Deleting J9.1 from net N
+Deleting J8.1 from net N
+Deleting U4.2 from net N
+Deleting J5.1 from net N
+Deleting U6.2 from net N
+Deleting U3.2 from net N
+Deleting J6.1 from net N
+Deleting U1.2 from net N
+Deleting J2.1 from net N
+Deleting U5.2 from net N
+Deleting J7.1 from net N
+Deleting J1.1 from net N
+Deleting U2.2 from net N
+Deleting J3.1 from net N
+Deleting U7.2 from net N
+Deleting U8.2 from net N
+Deleting J11.2 from net NUETRAL
+Adding U1.2 to net NUETRAL
+Adding J6.1 to net NUETRAL
+Adding J7.1 to net NUETRAL
+Adding J2.1 to net NUETRAL
+Adding U4.2 to net NUETRAL
+Adding J1.1 to net NUETRAL
+Adding J8.1 to net NUETRAL
+Adding U7.2 to net NUETRAL
+Adding U2.2 to net NUETRAL
+Adding J3.1 to net NUETRAL
+Adding U6.2 to net NUETRAL
+Adding U5.2 to net NUETRAL
+Adding J5.1 to net NUETRAL
+Adding U3.2 to net NUETRAL
+Adding U8.2 to net NUETRAL
+Adding J9.1 to net NUETRAL
+*EOF*
+No errors found

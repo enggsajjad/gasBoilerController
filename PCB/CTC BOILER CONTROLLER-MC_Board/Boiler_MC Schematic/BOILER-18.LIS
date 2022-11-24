@@ -1,0 +1,20 @@
+AutoECO Report
+FILE-A: F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-MC_BOARD\BOILER_MC SCHEMATIC\BOILER-17.MAX
+FILE-B: F:\MUSHTAQ PCB\SULTAN MEHMOOD\CTC BOILER CONTROLLER-MC_BOARD\BOILER_MC SCHEMATIC\BOILER.MNL
+If "*EOF*" immediately follows, no changes were made
+Net GND renamed to 0
+Deleting U2.15 from net MAINGAS
+Adding U2.17 to net MAINGAS
+Deleting U2.13 from net MIXER0%
+Adding U2.15 to net MIXER0%
+Deleting U2.12 from net MIXER5%
+Adding U2.14 to net MIXER5%
+Deleting U2.14 from net MIXER100%
+Adding U2.16 to net MIXER100%
+Deleting U2.16 from net OUT1
+Adding U2.13 to net OUT1
+Deleting U2.17 from net OUT2
+Adding U2.12 to net OUT2
+Adding U2.30 to net N16037497
+*EOF*
+No errors found
